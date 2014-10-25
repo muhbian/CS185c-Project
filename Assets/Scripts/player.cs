@@ -7,6 +7,7 @@ public class player : MonoBehaviour {
 	public float pogoStrength;
 	public float gravity;
 	public bool onPogo;
+	public bool isJumping;
 
 	private Animator anim;
 	private CharacterController p;
@@ -31,10 +32,11 @@ public class player : MonoBehaviour {
 		} else if (Input.GetAxis ("Horizontal") < 0) {
 			transform.rotation = new Quaternion(0,0,0,0);
 		}
-		if (Input.GetButtonDown ("Jump") && p.isGrounded) {
+		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
+			this.isJumping = true;
 			dir.y = jumpstrenght;
 		}
-		if (Input.GetButtonDown ("Pogo") && p.isGrounded && this.pogoCharges > 0) {
+		if (Input.GetButtonDown ("Pogo") && !this.onPogo && this.pogoCharges > 0) {
 			dir.y = pogoStrength;
 			this.pogoCharges--;
 			this.onPogo = true;
@@ -56,6 +58,7 @@ public class player : MonoBehaviour {
 		}
 
 		if (p.isGrounded) {
+			this.isJumping = false;
 			anim.SetBool ("isGrounded", true);
 			anim.SetBool ("onPogo", false);
 			this.onPogo = false;
