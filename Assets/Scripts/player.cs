@@ -9,6 +9,9 @@ public class player : MonoBehaviour {
 	public bool onPogo;
 	public bool isJumping;
 
+	public GameObject floor;
+	public GameObject enemy;
+
 	private Animator anim;
 	private CharacterController p;
 	private Vector3 dir = new Vector3 ();
