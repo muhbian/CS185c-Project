@@ -12,6 +12,8 @@ public class player : MonoBehaviour {
 	public GameObject floor;
 	public GameObject enemy;
 
+	public ArrayList floors; 
+
 	private Animator anim;
 	private CharacterController p;
 	private Vector3 dir = new Vector3 ();
