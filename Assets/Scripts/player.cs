@@ -3,7 +3,7 @@ using System.Collections;
 
 public class player : MonoBehaviour {
 	public float speed;
-	public float jumpstrenght;
+	public float jumpStrength;
 	public float pogoStrength;
 	public float gravity;
 	public bool onPogo;
@@ -20,6 +20,7 @@ public class player : MonoBehaviour {
 	private int ammunition = 5;
 	private int pogoCharges = 5;
 	private int score = 0;
+	private int lives = 3;
 
 
 	// Use this for initialization
@@ -39,7 +40,7 @@ public class player : MonoBehaviour {
 		}
 		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
 			this.isJumping = true;
-			dir.y = jumpstrenght;
+			dir.y = this.jumpStrength;
 		}
 		if (Input.GetButtonDown ("Pogo") && !this.onPogo && this.pogoCharges > 0) {
 			dir.y = pogoStrength;
@@ -85,5 +86,13 @@ public class player : MonoBehaviour {
 	void addScore(int amount) {
 		this.score += amount;
 		Debug.Log (this.score);
+	}
+
+	void onTriggerEnter(Collider c) {
+		if (c.tag == "enemy") {
+			this.lives--;
+			// play Death Animation?
+			// TODO respawn
+		}
 	}
 }
