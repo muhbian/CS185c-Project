@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class enemyMoving : MonoBehaviour {
@@ -30,6 +30,7 @@ public class enemyMoving : MonoBehaviour {
 				float posX = actPos.x + speed;
 				this.gameObject.transform.position = new Vector3 (posX, actPos.y, 0);
 			} else {
+				this.gameObject.transform.rotation = new Quaternion(0,180,0,0);
 				this.walkingDir = direction.LEFT;
 			}
 		} else {
@@ -37,6 +38,7 @@ public class enemyMoving : MonoBehaviour {
 				float posX = actPos.x - speed;
 				this.gameObject.transform.position = new Vector3 (posX, actPos.y, 0);
 			} else {
+				this.gameObject.transform.rotation = new Quaternion(0,0,0,0);
 				this.walkingDir = direction.RIGHT;
 			}
 					
@@ -44,7 +46,7 @@ public class enemyMoving : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter() {
+	void OnTriggerEnter(Collider c) {
 
 
 	}

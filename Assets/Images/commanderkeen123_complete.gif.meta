@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: 76c4e734ae1b24599aae5daa2f54c60c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: commanderkeen123_complete_0
+    21300002: commanderkeen123_complete_1
+    21300004: commanderkeen123_complete_2
+    21300006: commanderkeen123_complete_3
+    21300008: commanderkeen123_complete_4
+    21300010: commanderkeen123_complete_5
+    21300012: commanderkeen123_complete_6
+    21300014: commanderkeen123_complete_7
+    21300016: commanderkeen123_complete_8
+    21300018: commanderkeen123_complete_9
+    21300020: commanderkeen123_complete_10
+    21300022: commanderkeen123_complete_11
+    21300024: commanderkeen123_complete_12
+    21300026: commanderkeen123_complete_13
+    21300028: commanderkeen123_complete_14
+    21300030: commanderkeen123_complete_15
+    21300032: commanderkeen123_complete_16
+    21300034: commanderkeen123_complete_17
+    21300036: commanderkeen123_complete_18
+    21300038: commanderkeen123_complete_19
+    21300040: commanderkeen123_complete_20
+    21300042: commanderkeen123_complete_21
+    21300044: commanderkeen123_complete_22
+    21300046: commanderkeen123_complete_23
+    21300048: commanderkeen123_complete_24
+    21300050: commanderkeen123_complete_25
+    21300052: commanderkeen123_complete_26
+    21300054: commanderkeen123_complete_27
+    21300056: commanderkeen123_complete_28
+    21300058: commanderkeen123_complete_29
+    21300060: commanderkeen123_complete_30
+    21300062: commanderkeen123_complete_31
+    21300064: commanderkeen123_complete_32
+    21300066: commanderkeen123_complete_33
+    21300068: commanderkeen123_complete_34
+    21300070: commanderkeen123_complete_35
+    21300072: commanderkeen123_complete_36
+    21300074: commanderkeen123_complete_37
+    21300076: commanderkeen123_complete_38
+    21300078: commanderkeen123_complete_39
+    21300080: commanderkeen123_complete_40
+    21300082: commanderkeen123_complete_41
+    21300084: commanderkeen123_complete_42
+    21300086: commanderkeen123_complete_43
+    21300088: commanderkeen123_complete_44
+    21300090: commanderkeen123_complete_45
+    21300092: commanderkeen123_complete_46
+    21300094: commanderkeen123_complete_47
+    21300096: commanderkeen123_complete_48
+    21300098: commanderkeen123_complete_49
+    21300100: commanderkeen123_complete_50
+    21300102: commanderkeen123_complete_51
+    21300104: commanderkeen123_complete_52
+    21300106: commanderkeen123_complete_53
+    21300108: commanderkeen123_complete_54
+    21300110: commanderkeen123_complete_55
+    21300112: commanderkeen123_complete_56
+    21300114: commanderkeen123_complete_57
+    21300116: commanderkeen123_complete_58
+    21300118: commanderkeen123_complete_59
+    21300120: commanderkeen123_complete_60
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: commanderkeen123_complete_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1548
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1548
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1548
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1520
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1520
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1520
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1520
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1520
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1520
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_9
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1520
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1520
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1406
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1406
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1406
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1406
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1406
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1406
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_17
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1406
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1406
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_19
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1406
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_20
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1406
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1383
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1383
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1383
+        width: 82
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_24
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1383
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_25
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1383
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1383
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_27
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1366
+        width: 56
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_28
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1283
+        width: 19
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_29
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1366
+        width: 83
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1351
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1350
+        width: 62
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_32
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1350
+        width: 83
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_33
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1334
+        width: 100
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_34
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1316
+        width: 85
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_35
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1316
+        width: 122
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_36
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1300
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_37
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1299
+        width: 120
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_38
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1283
+        width: 111
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1270
+        width: 83
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_40
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1248
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_41
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1268
+        width: 102
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_42
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1251
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1205
+        width: 86
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_44
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1185
+        width: 61
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_45
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1188
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_46
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1130
+        width: 190
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1044
+        width: 357
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_48
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1051
+        width: 71
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_49
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 982
+        width: 223
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_50
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 955
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 784
+        width: 103
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_52
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 695
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_53
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 695
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_54
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 545
+        width: 102
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_55
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 491
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_56
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 437
+        width: 137
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_57
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 446
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_58
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 446
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_59
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 411
+        width: 129
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen123_complete_60
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 0
+        width: 243
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
