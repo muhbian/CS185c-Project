@@ -1,0 +1,3743 @@
+fileFormatVersion: 2
+guid: f3818c0c8433e4231a634a83a98d3fba
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: commanderkeen6_items_and_enemies_0
+    21300002: commanderkeen6_items_and_enemies_1
+    21300004: commanderkeen6_items_and_enemies_2
+    21300006: commanderkeen6_items_and_enemies_3
+    21300008: commanderkeen6_items_and_enemies_4
+    21300010: commanderkeen6_items_and_enemies_5
+    21300012: commanderkeen6_items_and_enemies_6
+    21300014: commanderkeen6_items_and_enemies_7
+    21300016: commanderkeen6_items_and_enemies_8
+    21300018: commanderkeen6_items_and_enemies_9
+    21300020: commanderkeen6_items_and_enemies_10
+    21300022: commanderkeen6_items_and_enemies_11
+    21300024: commanderkeen6_items_and_enemies_12
+    21300026: commanderkeen6_items_and_enemies_13
+    21300028: commanderkeen6_items_and_enemies_14
+    21300030: commanderkeen6_items_and_enemies_15
+    21300032: commanderkeen6_items_and_enemies_16
+    21300034: commanderkeen6_items_and_enemies_17
+    21300036: commanderkeen6_items_and_enemies_18
+    21300038: commanderkeen6_items_and_enemies_19
+    21300040: commanderkeen6_items_and_enemies_20
+    21300042: commanderkeen6_items_and_enemies_21
+    21300044: commanderkeen6_items_and_enemies_22
+    21300046: commanderkeen6_items_and_enemies_23
+    21300048: commanderkeen6_items_and_enemies_24
+    21300050: commanderkeen6_items_and_enemies_25
+    21300052: commanderkeen6_items_and_enemies_26
+    21300054: commanderkeen6_items_and_enemies_27
+    21300056: commanderkeen6_items_and_enemies_28
+    21300058: commanderkeen6_items_and_enemies_29
+    21300060: commanderkeen6_items_and_enemies_30
+    21300062: commanderkeen6_items_and_enemies_31
+    21300064: commanderkeen6_items_and_enemies_32
+    21300066: commanderkeen6_items_and_enemies_33
+    21300068: commanderkeen6_items_and_enemies_34
+    21300070: commanderkeen6_items_and_enemies_35
+    21300072: commanderkeen6_items_and_enemies_36
+    21300074: commanderkeen6_items_and_enemies_37
+    21300076: commanderkeen6_items_and_enemies_38
+    21300078: commanderkeen6_items_and_enemies_39
+    21300080: commanderkeen6_items_and_enemies_40
+    21300082: commanderkeen6_items_and_enemies_41
+    21300084: commanderkeen6_items_and_enemies_42
+    21300086: commanderkeen6_items_and_enemies_43
+    21300088: commanderkeen6_items_and_enemies_44
+    21300090: commanderkeen6_items_and_enemies_45
+    21300092: commanderkeen6_items_and_enemies_46
+    21300094: commanderkeen6_items_and_enemies_47
+    21300096: commanderkeen6_items_and_enemies_48
+    21300098: commanderkeen6_items_and_enemies_49
+    21300100: commanderkeen6_items_and_enemies_50
+    21300102: commanderkeen6_items_and_enemies_51
+    21300104: commanderkeen6_items_and_enemies_52
+    21300106: commanderkeen6_items_and_enemies_53
+    21300108: commanderkeen6_items_and_enemies_54
+    21300110: commanderkeen6_items_and_enemies_55
+    21300112: commanderkeen6_items_and_enemies_56
+    21300114: commanderkeen6_items_and_enemies_57
+    21300116: commanderkeen6_items_and_enemies_58
+    21300118: commanderkeen6_items_and_enemies_59
+    21300120: commanderkeen6_items_and_enemies_60
+    21300122: commanderkeen6_items_and_enemies_61
+    21300124: commanderkeen6_items_and_enemies_62
+    21300126: commanderkeen6_items_and_enemies_63
+    21300128: commanderkeen6_items_and_enemies_64
+    21300130: commanderkeen6_items_and_enemies_65
+    21300132: commanderkeen6_items_and_enemies_66
+    21300134: commanderkeen6_items_and_enemies_67
+    21300136: commanderkeen6_items_and_enemies_68
+    21300138: commanderkeen6_items_and_enemies_69
+    21300140: commanderkeen6_items_and_enemies_70
+    21300142: commanderkeen6_items_and_enemies_71
+    21300144: commanderkeen6_items_and_enemies_72
+    21300146: commanderkeen6_items_and_enemies_73
+    21300148: commanderkeen6_items_and_enemies_74
+    21300150: commanderkeen6_items_and_enemies_75
+    21300152: commanderkeen6_items_and_enemies_76
+    21300154: commanderkeen6_items_and_enemies_77
+    21300156: commanderkeen6_items_and_enemies_78
+    21300158: commanderkeen6_items_and_enemies_79
+    21300160: commanderkeen6_items_and_enemies_80
+    21300162: commanderkeen6_items_and_enemies_81
+    21300164: commanderkeen6_items_and_enemies_82
+    21300166: commanderkeen6_items_and_enemies_83
+    21300168: commanderkeen6_items_and_enemies_84
+    21300170: commanderkeen6_items_and_enemies_85
+    21300172: commanderkeen6_items_and_enemies_86
+    21300174: commanderkeen6_items_and_enemies_87
+    21300176: commanderkeen6_items_and_enemies_88
+    21300178: commanderkeen6_items_and_enemies_89
+    21300180: commanderkeen6_items_and_enemies_90
+    21300182: commanderkeen6_items_and_enemies_91
+    21300184: commanderkeen6_items_and_enemies_92
+    21300186: commanderkeen6_items_and_enemies_93
+    21300188: commanderkeen6_items_and_enemies_94
+    21300190: commanderkeen6_items_and_enemies_95
+    21300192: commanderkeen6_items_and_enemies_96
+    21300194: commanderkeen6_items_and_enemies_97
+    21300196: commanderkeen6_items_and_enemies_98
+    21300198: commanderkeen6_items_and_enemies_99
+    21300200: commanderkeen6_items_and_enemies_100
+    21300202: commanderkeen6_items_and_enemies_101
+    21300204: commanderkeen6_items_and_enemies_102
+    21300206: commanderkeen6_items_and_enemies_103
+    21300208: commanderkeen6_items_and_enemies_104
+    21300210: commanderkeen6_items_and_enemies_105
+    21300212: commanderkeen6_items_and_enemies_106
+    21300214: commanderkeen6_items_and_enemies_107
+    21300216: commanderkeen6_items_and_enemies_108
+    21300218: commanderkeen6_items_and_enemies_109
+    21300220: commanderkeen6_items_and_enemies_110
+    21300222: commanderkeen6_items_and_enemies_111
+    21300224: commanderkeen6_items_and_enemies_112
+    21300226: commanderkeen6_items_and_enemies_113
+    21300228: commanderkeen6_items_and_enemies_114
+    21300230: commanderkeen6_items_and_enemies_115
+    21300232: commanderkeen6_items_and_enemies_116
+    21300234: commanderkeen6_items_and_enemies_117
+    21300236: commanderkeen6_items_and_enemies_118
+    21300238: commanderkeen6_items_and_enemies_119
+    21300240: commanderkeen6_items_and_enemies_120
+    21300242: commanderkeen6_items_and_enemies_121
+    21300244: commanderkeen6_items_and_enemies_122
+    21300246: commanderkeen6_items_and_enemies_123
+    21300248: commanderkeen6_items_and_enemies_124
+    21300250: commanderkeen6_items_and_enemies_125
+    21300252: commanderkeen6_items_and_enemies_126
+    21300254: commanderkeen6_items_and_enemies_127
+    21300256: commanderkeen6_items_and_enemies_128
+    21300258: commanderkeen6_items_and_enemies_129
+    21300260: commanderkeen6_items_and_enemies_130
+    21300262: commanderkeen6_items_and_enemies_131
+    21300264: commanderkeen6_items_and_enemies_132
+    21300266: commanderkeen6_items_and_enemies_133
+    21300268: commanderkeen6_items_and_enemies_134
+    21300270: commanderkeen6_items_and_enemies_135
+    21300272: commanderkeen6_items_and_enemies_136
+    21300274: commanderkeen6_items_and_enemies_137
+    21300276: commanderkeen6_items_and_enemies_138
+    21300278: commanderkeen6_items_and_enemies_139
+    21300280: commanderkeen6_items_and_enemies_140
+    21300282: commanderkeen6_items_and_enemies_141
+    21300284: commanderkeen6_items_and_enemies_142
+    21300286: commanderkeen6_items_and_enemies_143
+    21300288: commanderkeen6_items_and_enemies_144
+    21300290: commanderkeen6_items_and_enemies_145
+    21300292: commanderkeen6_items_and_enemies_146
+    21300294: commanderkeen6_items_and_enemies_147
+    21300296: commanderkeen6_items_and_enemies_148
+    21300298: commanderkeen6_items_and_enemies_149
+    21300300: commanderkeen6_items_and_enemies_150
+    21300302: commanderkeen6_items_and_enemies_151
+    21300304: commanderkeen6_items_and_enemies_152
+    21300306: commanderkeen6_items_and_enemies_153
+    21300308: commanderkeen6_items_and_enemies_154
+    21300310: commanderkeen6_items_and_enemies_155
+    21300312: commanderkeen6_items_and_enemies_156
+    21300314: commanderkeen6_items_and_enemies_157
+    21300316: commanderkeen6_items_and_enemies_158
+    21300318: commanderkeen6_items_and_enemies_159
+    21300320: commanderkeen6_items_and_enemies_160
+    21300322: commanderkeen6_items_and_enemies_161
+    21300324: commanderkeen6_items_and_enemies_162
+    21300326: commanderkeen6_items_and_enemies_163
+    21300328: commanderkeen6_items_and_enemies_164
+    21300330: commanderkeen6_items_and_enemies_165
+    21300332: commanderkeen6_items_and_enemies_166
+    21300334: commanderkeen6_items_and_enemies_167
+    21300336: commanderkeen6_items_and_enemies_168
+    21300338: commanderkeen6_items_and_enemies_169
+    21300340: commanderkeen6_items_and_enemies_170
+    21300342: commanderkeen6_items_and_enemies_171
+    21300344: commanderkeen6_items_and_enemies_172
+    21300346: commanderkeen6_items_and_enemies_173
+    21300348: commanderkeen6_items_and_enemies_174
+    21300350: commanderkeen6_items_and_enemies_175
+    21300352: commanderkeen6_items_and_enemies_176
+    21300354: commanderkeen6_items_and_enemies_177
+    21300356: commanderkeen6_items_and_enemies_178
+    21300358: commanderkeen6_items_and_enemies_179
+    21300360: commanderkeen6_items_and_enemies_180
+    21300362: commanderkeen6_items_and_enemies_181
+    21300364: commanderkeen6_items_and_enemies_182
+    21300366: commanderkeen6_items_and_enemies_183
+    21300368: commanderkeen6_items_and_enemies_184
+    21300370: commanderkeen6_items_and_enemies_185
+    21300372: commanderkeen6_items_and_enemies_186
+    21300374: commanderkeen6_items_and_enemies_187
+    21300376: commanderkeen6_items_and_enemies_188
+    21300378: commanderkeen6_items_and_enemies_189
+    21300380: commanderkeen6_items_and_enemies_190
+    21300382: commanderkeen6_items_and_enemies_191
+    21300384: commanderkeen6_items_and_enemies_192
+    21300386: commanderkeen6_items_and_enemies_193
+    21300388: commanderkeen6_items_and_enemies_194
+    21300390: commanderkeen6_items_and_enemies_195
+    21300392: commanderkeen6_items_and_enemies_196
+    21300394: commanderkeen6_items_and_enemies_197
+    21300396: commanderkeen6_items_and_enemies_198
+    21300398: commanderkeen6_items_and_enemies_199
+    21300400: commanderkeen6_items_and_enemies_200
+    21300402: commanderkeen6_items_and_enemies_201
+    21300404: commanderkeen6_items_and_enemies_202
+    21300406: commanderkeen6_items_and_enemies_203
+    21300408: commanderkeen6_items_and_enemies_204
+    21300410: commanderkeen6_items_and_enemies_205
+    21300412: commanderkeen6_items_and_enemies_206
+    21300414: commanderkeen6_items_and_enemies_207
+    21300416: commanderkeen6_items_and_enemies_208
+    21300418: commanderkeen6_items_and_enemies_209
+    21300420: commanderkeen6_items_and_enemies_210
+    21300422: commanderkeen6_items_and_enemies_211
+    21300424: commanderkeen6_items_and_enemies_212
+    21300426: commanderkeen6_items_and_enemies_213
+    21300428: commanderkeen6_items_and_enemies_214
+    21300430: commanderkeen6_items_and_enemies_215
+    21300432: commanderkeen6_items_and_enemies_216
+    21300434: commanderkeen6_items_and_enemies_217
+    21300436: commanderkeen6_items_and_enemies_218
+    21300438: commanderkeen6_items_and_enemies_219
+    21300440: commanderkeen6_items_and_enemies_220
+    21300442: commanderkeen6_items_and_enemies_221
+    21300444: commanderkeen6_items_and_enemies_222
+    21300446: commanderkeen6_items_and_enemies_223
+    21300448: commanderkeen6_items_and_enemies_224
+    21300450: commanderkeen6_items_and_enemies_225
+    21300452: commanderkeen6_items_and_enemies_226
+    21300454: commanderkeen6_items_and_enemies_227
+    21300456: commanderkeen6_items_and_enemies_228
+    21300458: commanderkeen6_items_and_enemies_229
+    21300460: commanderkeen6_items_and_enemies_230
+    21300462: commanderkeen6_items_and_enemies_231
+    21300464: commanderkeen6_items_and_enemies_232
+    21300466: commanderkeen6_items_and_enemies_233
+    21300468: commanderkeen6_items_and_enemies_234
+    21300470: commanderkeen6_items_and_enemies_235
+    21300472: commanderkeen6_items_and_enemies_236
+    21300474: commanderkeen6_items_and_enemies_237
+    21300476: commanderkeen6_items_and_enemies_238
+    21300478: commanderkeen6_items_and_enemies_239
+    21300480: commanderkeen6_items_and_enemies_240
+    21300482: commanderkeen6_items_and_enemies_241
+    21300484: commanderkeen6_items_and_enemies_242
+    21300486: commanderkeen6_items_and_enemies_243
+    21300488: commanderkeen6_items_and_enemies_244
+    21300490: commanderkeen6_items_and_enemies_245
+    21300492: commanderkeen6_items_and_enemies_246
+    21300494: commanderkeen6_items_and_enemies_247
+    21300496: commanderkeen6_items_and_enemies_248
+    21300498: commanderkeen6_items_and_enemies_249
+    21300500: commanderkeen6_items_and_enemies_250
+    21300502: commanderkeen6_items_and_enemies_251
+    21300504: commanderkeen6_items_and_enemies_252
+    21300506: commanderkeen6_items_and_enemies_253
+    21300508: commanderkeen6_items_and_enemies_254
+    21300510: commanderkeen6_items_and_enemies_255
+    21300512: commanderkeen6_items_and_enemies_256
+    21300514: commanderkeen6_items_and_enemies_257
+    21300516: commanderkeen6_items_and_enemies_258
+    21300518: commanderkeen6_items_and_enemies_259
+    21300520: commanderkeen6_items_and_enemies_260
+    21300522: commanderkeen6_items_and_enemies_261
+    21300524: commanderkeen6_items_and_enemies_262
+    21300526: commanderkeen6_items_and_enemies_263
+    21300528: commanderkeen6_items_and_enemies_264
+    21300530: commanderkeen6_items_and_enemies_265
+    21300532: commanderkeen6_items_and_enemies_266
+    21300534: commanderkeen6_items_and_enemies_267
+    21300536: commanderkeen6_items_and_enemies_268
+    21300538: commanderkeen6_items_and_enemies_269
+    21300540: commanderkeen6_items_and_enemies_270
+    21300542: commanderkeen6_items_and_enemies_271
+    21300544: commanderkeen6_items_and_enemies_272
+    21300546: commanderkeen6_items_and_enemies_273
+    21300548: commanderkeen6_items_and_enemies_274
+    21300550: commanderkeen6_items_and_enemies_275
+    21300552: commanderkeen6_items_and_enemies_276
+    21300554: commanderkeen6_items_and_enemies_277
+    21300556: commanderkeen6_items_and_enemies_278
+    21300558: commanderkeen6_items_and_enemies_279
+    21300560: commanderkeen6_items_and_enemies_280
+    21300562: commanderkeen6_items_and_enemies_281
+    21300564: commanderkeen6_items_and_enemies_282
+    21300566: commanderkeen6_items_and_enemies_283
+    21300568: commanderkeen6_items_and_enemies_284
+    21300570: commanderkeen6_items_and_enemies_285
+    21300572: commanderkeen6_items_and_enemies_286
+    21300574: commanderkeen6_items_and_enemies_287
+    21300576: commanderkeen6_items_and_enemies_288
+    21300578: commanderkeen6_items_and_enemies_289
+    21300580: commanderkeen6_items_and_enemies_290
+    21300582: commanderkeen6_items_and_enemies_291
+    21300584: commanderkeen6_items_and_enemies_292
+    21300586: commanderkeen6_items_and_enemies_293
+    21300588: commanderkeen6_items_and_enemies_294
+    21300590: commanderkeen6_items_and_enemies_295
+    21300592: commanderkeen6_items_and_enemies_296
+    21300594: commanderkeen6_items_and_enemies_297
+    21300596: commanderkeen6_items_and_enemies_298
+    21300598: commanderkeen6_items_and_enemies_299
+    21300600: commanderkeen6_items_and_enemies_300
+    21300602: commanderkeen6_items_and_enemies_301
+    21300604: commanderkeen6_items_and_enemies_302
+    21300606: commanderkeen6_items_and_enemies_303
+    21300608: commanderkeen6_items_and_enemies_304
+    21300610: commanderkeen6_items_and_enemies_305
+    21300612: commanderkeen6_items_and_enemies_306
+    21300614: commanderkeen6_items_and_enemies_307
+    21300616: commanderkeen6_items_and_enemies_308
+    21300618: commanderkeen6_items_and_enemies_309
+    21300620: commanderkeen6_items_and_enemies_310
+    21300622: commanderkeen6_items_and_enemies_311
+    21300624: commanderkeen6_items_and_enemies_312
+    21300626: commanderkeen6_items_and_enemies_313
+    21300628: commanderkeen6_items_and_enemies_314
+    21300630: commanderkeen6_items_and_enemies_315
+    21300632: commanderkeen6_items_and_enemies_316
+    21300634: commanderkeen6_items_and_enemies_317
+    21300636: commanderkeen6_items_and_enemies_318
+    21300638: commanderkeen6_items_and_enemies_319
+    21300640: commanderkeen6_items_and_enemies_320
+    21300642: commanderkeen6_items_and_enemies_321
+    21300644: commanderkeen6_items_and_enemies_322
+    21300646: commanderkeen6_items_and_enemies_323
+    21300648: commanderkeen6_items_and_enemies_324
+    21300650: commanderkeen6_items_and_enemies_325
+    21300652: commanderkeen6_items_and_enemies_326
+    21300654: commanderkeen6_items_and_enemies_327
+    21300656: commanderkeen6_items_and_enemies_328
+    21300658: commanderkeen6_items_and_enemies_329
+    21300660: commanderkeen6_items_and_enemies_330
+    21300662: commanderkeen6_items_and_enemies_331
+    21300664: commanderkeen6_items_and_enemies_332
+    21300666: commanderkeen6_items_and_enemies_333
+    21300668: commanderkeen6_items_and_enemies_334
+    21300670: commanderkeen6_items_and_enemies_335
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: commanderkeen6_items_and_enemies_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 917
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 917
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 917
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 917
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 917
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 917
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 917
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 919
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 916
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 914
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 906
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 914
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_12
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 914
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 914
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_14
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 914
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_15
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 914
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 914
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 914
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_18
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 914
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 914
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_20
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 914
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 906
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 905
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 906
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 906
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 906
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_26
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 906
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 906
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_28
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 906
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_29
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 906
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_30
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 906
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_31
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 906
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_32
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_33
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_34
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 893
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_35
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 893
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_36
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 893
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_37
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 893
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 884
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_39
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_40
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 880
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_41
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 880
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_42
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 880
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_43
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 880
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_44
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 880
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_45
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 880
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_46
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 881
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_47
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 880
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_48
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 880
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_49
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 880
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_50
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 880
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_51
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 872
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_52
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 872
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 872
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_54
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 872
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_55
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 872
+        width: 36
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_56
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 872
+        width: 43
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_57
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 872
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_58
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 872
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_59
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 872
+        width: 50
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_60
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 872
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_61
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 872
+        width: 54
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_62
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 872
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_63
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 872
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_64
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 872
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_65
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 864
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_66
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 864
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_67
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 864
+        width: 49
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_68
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 864
+        width: 47
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_69
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 816
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_70
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 816
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_71
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 816
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_72
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 816
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 816
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_74
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 816
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 816
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_76
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 816
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_77
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 816
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_78
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 834
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_79
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 806
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_80
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 834
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_81
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 834
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_82
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 816
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_83
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 816
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_84
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 816
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_85
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 816
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_86
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 816
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_87
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 816
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_88
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 816
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_89
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 816
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_90
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 816
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_91
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 834
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_92
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 806
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_93
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 834
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_94
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 834
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_95
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 785
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_96
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 785
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_97
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 785
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_98
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 785
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 785
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_100
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 785
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_101
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 785
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_102
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 785
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_103
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 785
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_104
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 803
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_105
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 785
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 803
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_107
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 803
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_108
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 785
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_109
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 785
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_110
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 785
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_111
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 785
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_112
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 785
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_113
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 785
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_114
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 785
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_115
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 785
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_116
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 785
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_117
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 803
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_118
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 785
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_119
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 803
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_120
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 803
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_121
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 777
+        width: 47
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_122
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 722
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_123
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 722
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_124
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 722
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_125
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 722
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_126
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 722
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_127
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 722
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_128
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 722
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_129
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 722
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_130
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 760
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_131
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 722
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_132
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 760
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_133
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 760
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_134
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 722
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_135
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 714
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_136
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 655
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_137
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 655
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_138
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 655
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_139
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 655
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_140
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 655
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_141
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 655
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_142
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 655
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_143
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 655
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_144
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 594
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_145
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 594
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_146
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 588
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_147
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 594
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_148
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 594
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_149
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 588
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_150
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 588
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_151
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 588
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_152
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 588
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_153
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 588
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_154
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 545
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_155
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 545
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_156
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 545
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_157
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 545
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_158
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 567
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_159
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 545
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_160
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 564
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_161
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 545
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_162
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 545
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_163
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 545
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_164
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 545
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_165
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 545
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_166
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 545
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_167
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 545
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_168
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 545
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_169
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 558
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_170
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 558
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_171
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 537
+        width: 43
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_172
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 487
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_173
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 487
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_174
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 487
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_175
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 487
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_176
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 487
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_177
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 487
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_178
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 518
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_179
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 518
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_180
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 517
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_181
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 517
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_182
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 479
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_183
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 457
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_184
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 457
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_185
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 458
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_186
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 457
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_187
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 457
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_188
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 457
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_189
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 457
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_190
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 457
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_191
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 458
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_192
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 457
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_193
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 457
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_194
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 457
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_195
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 449
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_196
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 412
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_197
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 412
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_198
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 412
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_199
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 412
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_200
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 412
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_201
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 412
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_202
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 412
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_203
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 412
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_204
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 412
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_205
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 412
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_206
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 412
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_207
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 412
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_208
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 412
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_209
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 412
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_210
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 412
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_211
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 412
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_212
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 404
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_213
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 362
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_214
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 362
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_215
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 362
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_216
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 362
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_217
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 362
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_218
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 362
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_219
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 362
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_220
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 362
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_221
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 362
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_222
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 362
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_223
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 391
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_224
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 391
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_225
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 391
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_226
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 362
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_227
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 363
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_228
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 332
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_229
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 332
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_230
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 332
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_231
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 332
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_232
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 332
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_233
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 332
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_234
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 332
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_235
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 332
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_236
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 324
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_237
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 316
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_238
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 305
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_239
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 291
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_240
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 289
+        width: 5
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_241
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 291
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_242
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 316
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_243
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 314
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_244
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 312
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_245
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 310
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_246
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 308
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_247
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 306
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_248
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 305
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_249
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 305
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_250
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 296
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_251
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 303
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_252
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 298
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_253
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 294
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_254
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 294
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_255
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 295
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_256
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 294
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_257
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 295
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_258
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 295
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_259
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 294
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_260
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 294
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_261
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 281
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_262
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 262
+        width: 49
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_263
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 268
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_264
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 268
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_265
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 267
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_266
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 268
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_267
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 268
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_268
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 267
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_269
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 267
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_270
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 268
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_271
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 254
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_272
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 254
+        width: 50
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_273
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 234
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_274
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 232
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_275
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 231
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_276
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 232
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_277
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 234
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_278
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 234
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_279
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 232
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_280
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 231
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_281
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 232
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_282
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 234
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_283
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 238
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_284
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 229
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_285
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 229
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_286
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 242
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_287
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 241
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_288
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 239
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_289
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 237
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_290
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 232
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_291
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 228
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_292
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 200
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_293
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_294
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_295
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 187
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_296
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_297
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 187
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_298
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_299
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 187
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_300
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_301
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 187
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_302
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 187
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_303
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 179
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_304
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 146
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_305
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 147
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_306
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 138
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_307
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 119
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_308
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 119
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_309
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 119
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_310
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 119
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_311
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 119
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_312
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 119
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_313
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 119
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_314
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 119
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_315
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 119
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_316
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_317
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_318
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_319
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_320
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 110
+        width: 45
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_321
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 52
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_322
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 52
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_323
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 52
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_324
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 52
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_325
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 52
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_326
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 52
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_327
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 86
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_328
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 85
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_329
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 86
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_330
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 86
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_331
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 52
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_332
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 44
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_333
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 9
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_334
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 9
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: commanderkeen6_items_and_enemies_335
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
