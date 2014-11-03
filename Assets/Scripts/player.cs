@@ -8,15 +8,9 @@ public class player : MonoBehaviour {
 	public float gravity;
 	public bool onPogo;
 	public bool isJumping;
-	public BoxCollider headCollider;
-
 	public GameObject bullet;
+	public GameObject respawnPoint;
 	 
-	public ArrayList floors; 
-
-	private enum direction {RIGHT, LEFT};
-	private direction walkingDir = direction.RIGHT;
-
 	public Animator anim;
 	public CharacterController p;
 	public Vector3 dir = new Vector3();
@@ -32,7 +26,6 @@ public class player : MonoBehaviour {
 	void Start () {
 		anim = (Animator)this.GetComponent ("Animator");
 		p = (CharacterController)(this.GetComponent("CharacterController"));
-		headCollider = (BoxCollider)this.GetComponent ("BoxCollider");
 	}
 	
 	// Update is called once per frame
@@ -43,10 +36,8 @@ public class player : MonoBehaviour {
 		}
 		dir.x = Input.GetAxis ("Horizontal") * speed;
 		if (Input.GetAxis ("Horizontal") > 0) {
-			this.walkingDir = direction.RIGHT;
 			transform.rotation = new Quaternion(0,180,0,0);
 		} else if (Input.GetAxis ("Horizontal") < 0) {
-			this.walkingDir = direction.LEFT;
 			transform.rotation = new Quaternion(0,0,0,0);
 		}
 		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
@@ -88,41 +79,32 @@ public class player : MonoBehaviour {
 	void shoot() {
 		Instantiate(this.bullet,
 		            new Vector3(this.transform.position.x,this.transform.position.y+1.5f,this.transform.position.z),
-		            Quaternion.identity);	}
+		            Quaternion.identity);	
+
+	}
 
 	void addAmmunition(int amount) {
 		this.ammunition += amount;
-		Debug.Log (this.ammunition);
 	}
 
 	void respawn() {
-
+		this.lives--;
+		this.transform.position = this.respawnPoint.transform.position;
 	}
 
 	void addPogoCharges(int amount) {
 		this.pogoCharges += amount;
-		Debug.Log (this.pogoCharges);
 	}
 
 	void addScore(int amount) {
 		this.score += amount;
-		Debug.Log (this.score);
 	}
 
 	void onTriggerEnter(Collider c) {
-		Debug.Log("hallo");
-
 		if (c.tag == "enemy") {
-			this.lives--;
 			this.respawn();
 			// play Death Animation?
 			// TODO respawn
 		}
-		if (c.tag == "wall") {
-			if(headCollider.bounds.Intersects(c.bounds)){
-				Debug.Log("abc");
-			}
-		}
-
 	}
 }
