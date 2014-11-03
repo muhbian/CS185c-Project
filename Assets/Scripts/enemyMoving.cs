@@ -52,14 +52,11 @@ public class enemyMoving : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter(Collider c) {
+	void OnControllerColliderHit(ControllerColliderHit hit){
+//	void OnTriggerEnter(Collider c) {
 		Debug.Log("enemy collision");
 
-		if (c.tag == "player") {
-			Debug.Log ("Collision with player");
-			c.SendMessage ("respawn", 0);
-			
-		} else if (c.tag == "bullet")  {
+		if (hit.transform.tag == "bullet")  {
 			this.isAlive = false;
 			anim.SetTrigger("dead");
 		}

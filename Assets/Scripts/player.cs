@@ -120,7 +120,9 @@ public class player : MonoBehaviour {
 
 
 	void OnTriggerEnter(Collider c) {
-
+		if (c.tag == "enemy") {
+			this.respawn();
+		}
 	}
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
