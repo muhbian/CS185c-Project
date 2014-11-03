@@ -33,6 +33,8 @@ public class player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		this.transform.position = new Vector3 (this.transform.position.x, this.transform.position.y, -2);
+
 		// Handle Movement
 		if (p.isGrounded) {
 			dir.y = 0;
@@ -119,11 +121,12 @@ public class player : MonoBehaviour {
 	}
 
 
-	void OnTriggerEnter(Collider c) {
-		if (c.tag == "enemy") {
-			this.respawn();
-		}
-	}
+//	void OnTriggerStay(Collider c) {
+//		if (c.tag == "enemy") {
+//			this.respawn();
+//		}
+//		Debug.Log ("colission");
+//	}
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
 		if (!this.hitHead && !p.isGrounded) {
