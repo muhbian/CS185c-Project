@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class crate : MonoBehaviour {
-	public enum ContentTypes{Ammunition, PogoCharges, Score};
+	public enum ContentTypes{Ammunition, Score};
 
 	public ContentTypes content;
 	public int value;
@@ -22,9 +22,6 @@ public class crate : MonoBehaviour {
 			switch(this.content) {
 			case ContentTypes.Ammunition:
 				c.SendMessage("addAmmunition",value);
-				break;
-			case ContentTypes.PogoCharges:
-				c.SendMessage("addPogoCharges",value);
 				break;
 			case ContentTypes.Score:
 				c.SendMessage("addScore",value);
