@@ -19,7 +19,7 @@ public class player : MonoBehaviour {
 	public int ammunition = 5;
 	public int score = 0;
 	public int lives = 3;
-	private bool hitHead;
+	public bool hitHead;
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +27,7 @@ public class player : MonoBehaviour {
 		p = (CharacterController)(this.GetComponent("CharacterController"));
 		this.hasPogo = true;
 		this.hasGun = true;
+		//this.respawn ();
 	}
 	
 	// Update is called once per frame
@@ -43,7 +44,6 @@ public class player : MonoBehaviour {
 		}
 		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
 			this.isJumping = true;
-			//this.onPogo = false;
 			dir.y = this.jumpStrength;
 		}
 		if (Input.GetButtonDown ("Pogo") ) {
@@ -58,8 +58,7 @@ public class player : MonoBehaviour {
 			}
 			anim.SetBool ("onPogo", this.onPogo);
 		}
-
-
+	
 		// Handle Shooting
 		if (Input.GetButtonDown ("Fire1")) {
 			anim.SetTrigger("shot");
@@ -75,19 +74,21 @@ public class player : MonoBehaviour {
 			
 		if (p.isGrounded) {
 			this.isJumping = false;
+			this.hitHead = false;
 			if(onPogo) {
 				dir.y = pogoStrength;
+
 			} else {
 				anim.SetBool ("isGrounded", true);
 				
 			}
-			this.hitHead = false;
+
 		} else {
 			anim.SetBool ("isGrounded", false);
 		}
-
 		dir.y -= gravity * Time.deltaTime;
 		p.Move (dir * Time.deltaTime);
+
 	}
 
 	void shoot() {
@@ -107,6 +108,7 @@ public class player : MonoBehaviour {
 	
 		this.lives--;
 		this.transform.position = this.respawnPoint.transform.position;
+		this.transform.rotation = new Quaternion(0,0,0,0);
 	}
 
 	void addScore(int amount) {
@@ -121,7 +123,7 @@ public class player : MonoBehaviour {
 	}
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
-		if (!this.hitHead) {
+		if (!this.hitHead && !p.isGrounded) {
 			dir = new Vector3 (0, 0, 0);
 			this.hitHead = true;
 		}

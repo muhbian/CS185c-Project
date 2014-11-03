@@ -53,7 +53,7 @@ public class enemyMoving : MonoBehaviour {
 		Debug.Log("enemy collision");
 		Debug.Log (c.name);
 		if (c.tag == "player") {
-			c.SendMessage("respawn",1);
+			c.SendMessage ("respawn", 0);
 			
 		} else if (c.tag == "bullet")  {
 			this.isAlive = false;
