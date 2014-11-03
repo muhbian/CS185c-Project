@@ -52,14 +52,9 @@ public class enemyMoving : MonoBehaviour {
 		}
 	}
 
-	void OnControllerColliderHit(ControllerColliderHit hit){
-//	void OnTriggerEnter(Collider c) {
-		Debug.Log("enemy collision");
-
-		if (hit.transform.tag == "bullet")  {
-			this.isAlive = false;
-			anim.SetTrigger("dead");
-		}
+//	void OnControllerColliderHit(ControllerColliderHit hit){
+	void OnTriggerEnter(Collider c) {
+		c.SendMessage ("respawn", 0);
 
 	}
 }
