@@ -10,14 +10,15 @@ public class player : MonoBehaviour {
 	public bool isJumping;
 	public GameObject bullet;
 	public GameObject respawnPoint;
+	public AudioClip hitHeadSound;
 	 
 	private Animator anim;
 	private CharacterController p;
 	private Vector3 dir = new Vector3();
-	private int ammunition = 5;
-	private int pogoCharges = 5;
-	private int score = 0;
-	private int lives = 3;
+	public int ammunition = 5;
+	public int pogoCharges = 5;
+	public int score = 0;
+	public int lives = 3;
 	private bool hitHead;
 
 	// Use this for initialization
@@ -42,6 +43,7 @@ public class player : MonoBehaviour {
 		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
 			this.isJumping = true;
 			this.onPogo = false;
+			anim.SetBool ("onPogo", false);
 			dir.y = this.jumpStrength;
 		}
 		if (Input.GetButtonDown ("Pogo") && !this.onPogo && this.pogoCharges > 0) {
@@ -55,8 +57,10 @@ public class player : MonoBehaviour {
 
 		// Handle Shooting
 		if (Input.GetButtonDown ("Fire1")) {
-			anim.SetTrigger("shot");
-			this.shoot();
+			if(this.ammunition > 0 ) {
+				anim.SetTrigger("shot");
+				this.shoot();
+			}
 		}
 
 		// Handle Animations
@@ -89,9 +93,9 @@ public class player : MonoBehaviour {
 	}
 
 	void respawn() {
-	
 		this.lives--;
 		this.transform.position = this.respawnPoint.transform.position;
+		this.dir = new Vector3 (0, 0, 0);
 	}
 
 	void addPogoCharges(int amount) {
@@ -100,6 +104,7 @@ public class player : MonoBehaviour {
 
 	void addScore(int amount) {
 		this.score += amount;
+		// play sound
 	}
 
 	void onTriggerEnter(Collider c) {
@@ -113,7 +118,7 @@ public class player : MonoBehaviour {
 		if (!this.hitHead && !p.isGrounded) {
 			dir = new Vector3 (0, 0, 0);
 			this.hitHead = true;
-			// play sound?
+			AudioSource.PlayClipAtPoint (this.hitHeadSound, new Vector3(0,0,0));
 		}
 
 	}
