@@ -117,15 +117,13 @@ public class player : MonoBehaviour {
 	}
 
 	void onTriggerEnter(Collider c) {
-		if (c.tag == "enemy") {
-			this.respawn();
-			// play Death Animation
-		}
+
 	}
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
 		if (!this.hitHead && !p.isGrounded) {
 			dir = new Vector3 (0, 0, 0);
+
 			this.hitHead = true;
 			AudioSource.PlayClipAtPoint (this.hitHeadSound, new Vector3(0,0,0));
 		}
