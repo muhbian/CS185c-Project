@@ -33,6 +33,14 @@ public class player : MonoBehaviour {
 		anim = (Animator)this.GetComponent ("Animator");
 		p = (CharacterController)(this.GetComponent("CharacterController"));
 		headCollider = (BoxCollider)this.GetComponent ("BoxCollider");
+
+
+		spawn.x = -2.5f;
+		spawn.y = -1.3f;
+		spawn.z = -2f;
+
+
+		// this.respawn ();
 	}
 	
 	// Update is called once per frame
@@ -96,7 +104,15 @@ public class player : MonoBehaviour {
 	}
 
 	void respawn() {
-
+		
+		this.gameObject.transform.position = spawn;
+		this.walkingDir = direction.RIGHT;
+		transform.rotation = new Quaternion(0,180,0,0); 
+	}
+	
+	void looseLive() {
+		this.respawn ();
+		this.lives--;
 	}
 
 	void addPogoCharges(int amount) {
