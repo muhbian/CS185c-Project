@@ -45,6 +45,8 @@ public class player : MonoBehaviour {
 		}
 		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
 			this.isJumping = true;
+			this.onPogo = false;
+			anim.SetBool ("onPogo", this.onPogo);
 			dir.y = this.jumpStrength;
 		}
 		if (Input.GetButtonDown ("Pogo") ) {
@@ -116,7 +118,8 @@ public class player : MonoBehaviour {
 		// play sound
 	}
 
-	void onTriggerEnter(Collider c) {
+
+	void OnTriggerEnter(Collider c) {
 
 	}
 
