@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GUI_skript : MonoBehaviour {
+public class GUI_script : MonoBehaviour {
 
 	public player player;
 	public Texture livesTxtr;
