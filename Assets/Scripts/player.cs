@@ -13,7 +13,7 @@ public class player : MonoBehaviour {
 	 
 	private Animator anim;
 	private CharacterController p;
-	public Vector3 dir = new Vector3();
+	private Vector3 dir = new Vector3();
 	private int ammunition = 5;
 	private int pogoCharges = 5;
 	private int score = 0;
@@ -43,10 +43,11 @@ public class player : MonoBehaviour {
 			this.onPogo = false;
 			dir.y = this.jumpStrength;
 		}
-		if (Input.GetButtonDown ("Pogo") && !this.onPogo && this.pogoCharges > 0 && !this.isJumping) {
+		if (Input.GetButtonDown ("Pogo") && !this.onPogo && this.pogoCharges > 0) {
 			dir.y = pogoStrength;
 			this.pogoCharges--;
 			this.onPogo = true;
+			anim.SetBool ("onPogo", true);
 		}
 		dir.y -= gravity * Time.deltaTime;
 		p.Move (dir * Time.deltaTime);
@@ -57,17 +58,13 @@ public class player : MonoBehaviour {
 			this.shoot();
 		}
 
-		// Handle Animations and grounding
+		// Handle Animations
 		if (dir.x != 0) {
 			anim.SetBool ("moving", true);
 		} else {
 			anim.SetBool ("moving", false);
 		}
 
-		if (this.onPogo) {
-			anim.SetBool ("onPogo", true);
-		}
-			
 		if (p.isGrounded) {
 			this.isJumping = false;
 			anim.SetBool ("isGrounded", true);
@@ -81,11 +78,9 @@ public class player : MonoBehaviour {
 
 	void shoot() {
 		this.ammunition--;
-		Vector3 bulletPos = new Vector3 (this.transform.position.x + 1.0f,
-		                                this.transform.position.y,
-		                                this.transform.position.z);	
-	
-		GameObject.Instantiate (this.bullet, bulletPos, Quaternion.identity);
+		Instantiate(this.bullet,
+		            new Vector3(this.transform.position.x+1.5f,this.transform.position.y,this.transform.position.z),
+		            Quaternion.identity);
 	}
 
 	void addAmmunition(int amount) {
@@ -113,9 +108,11 @@ public class player : MonoBehaviour {
 	}
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
-		if (!this.hitHead) {
+		if (!this.hitHead && !p.isGrounded) {
 			dir = new Vector3 (0, 0, 0);
 			this.hitHead = true;
+			// play sound?
 		}
+
 	}
 }
