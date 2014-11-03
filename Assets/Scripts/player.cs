@@ -14,10 +14,10 @@ public class player : MonoBehaviour {
 	private Animator anim;
 	private CharacterController p;
 	public Vector3 dir = new Vector3();
-	private int ammunition = 5;
-	private int pogoCharges = 5;
-	private int score = 0;
-	private int lives = 3;
+	public int ammunition = 5;
+	public int pogoCharges = 5;
+	public int score = 0;
+	public int lives = 3;
 	private bool hitHead;
 
 	// Use this for initialization
