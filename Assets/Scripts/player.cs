@@ -7,6 +7,8 @@ public class player : MonoBehaviour {
 	public float pogoStrength;
 	public float gravity;
 	public bool onPogo;
+	public bool hasPogo;
+	public bool hasGun;
 	public bool isJumping;
 	public GameObject bullet;
 	public GameObject respawnPoint;
@@ -15,7 +17,6 @@ public class player : MonoBehaviour {
 	private CharacterController p;
 	public Vector3 dir = new Vector3();
 	public int ammunition = 5;
-	public int pogoCharges = 5;
 	public int score = 0;
 	public int lives = 3;
 	private bool hitHead;
@@ -24,7 +25,8 @@ public class player : MonoBehaviour {
 	void Start () {
 		anim = (Animator)this.GetComponent ("Animator");
 		p = (CharacterController)(this.GetComponent("CharacterController"));
-
+		this.hasPogo = true;
+		this.hasGun = true;
 	}
 	
 	// Update is called once per frame
@@ -41,16 +43,22 @@ public class player : MonoBehaviour {
 		}
 		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
 			this.isJumping = true;
-			this.onPogo = false;
+			//this.onPogo = false;
 			dir.y = this.jumpStrength;
 		}
-		if (Input.GetButtonDown ("Pogo") && !this.onPogo && this.pogoCharges > 0 && !this.isJumping) {
-			dir.y = pogoStrength;
-			this.pogoCharges--;
-			this.onPogo = true;
+		if (Input.GetButtonDown ("Pogo") ) {
+//			dir.y = pogoStrength;
+//
+//			this.onPogo = true;
+
+			this.onPogo = !this.onPogo;
+
+			if(!this.onPogo) {
+				dir.y = 0;
+			}
+			anim.SetBool ("onPogo", this.onPogo);
 		}
-		dir.y -= gravity * Time.deltaTime;
-		p.Move (dir * Time.deltaTime);
+
 
 		// Handle Shooting
 		if (Input.GetButtonDown ("Fire1")) {
@@ -64,20 +72,22 @@ public class player : MonoBehaviour {
 		} else {
 			anim.SetBool ("moving", false);
 		}
-
-		if (this.onPogo) {
-			anim.SetBool ("onPogo", true);
-		}
 			
 		if (p.isGrounded) {
 			this.isJumping = false;
-			anim.SetBool ("isGrounded", true);
-			anim.SetBool ("onPogo", false);
-			this.onPogo = false;
+			if(onPogo) {
+				dir.y = pogoStrength;
+			} else {
+				anim.SetBool ("isGrounded", true);
+				
+			}
 			this.hitHead = false;
 		} else {
 			anim.SetBool ("isGrounded", false);
 		}
+
+		dir.y -= gravity * Time.deltaTime;
+		p.Move (dir * Time.deltaTime);
 	}
 
 	void shoot() {
@@ -97,10 +107,6 @@ public class player : MonoBehaviour {
 	
 		this.lives--;
 		this.transform.position = this.respawnPoint.transform.position;
-	}
-
-	void addPogoCharges(int amount) {
-		this.pogoCharges += amount;
 	}
 
 	void addScore(int amount) {
