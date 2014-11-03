@@ -11,16 +11,13 @@ public class player : MonoBehaviour {
 	public GameObject bullet;
 	public GameObject respawnPoint;
 	 
-	public Animator anim;
-	public CharacterController p;
-	public Vector3 dir = new Vector3();
-	public int ammunition = 5;
-	public int pogoCharges = 5;
-	public int score = 0;
-	public int lives = 3;
-
-	public Vector3 spawn = new Vector3();
-
+	private Animator anim;
+	private CharacterController p;
+	private Vector3 dir = new Vector3();
+	private int ammunition = 5;
+	private int pogoCharges = 5;
+	private int score = 0;
+	private int lives = 3;
 
 	// Use this for initialization
 	void Start () {
@@ -77,9 +74,12 @@ public class player : MonoBehaviour {
 	}
 
 	void shoot() {
-		Instantiate(this.bullet,
-		            new Vector3(this.transform.position.x,this.transform.position.y+1.5f,this.transform.position.z),
-		            Quaternion.identity);	
+		this.ammunition--;
+		Vector3 bulletPos = new Vector3 (this.transform.position.x + 1.0f,
+		                                this.transform.position.y,
+		                                this.transform.position.z);	
+	
+		GameObject.Instantiate (this.bullet, bulletPos, Quaternion.identity);
 
 	}
 
@@ -103,8 +103,11 @@ public class player : MonoBehaviour {
 	void onTriggerEnter(Collider c) {
 		if (c.tag == "enemy") {
 			this.respawn();
-			// play Death Animation?
-			// TODO respawn
+			// play Death Animation
 		}
+	}
+
+	void OnControllerColliderHit(ControllerColliderHit hit){
+		dir.y = 0;
 	}
 }
