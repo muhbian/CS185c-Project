@@ -24,6 +24,7 @@ public class player : MonoBehaviour {
 	void Start () {
 		anim = (Animator)this.GetComponent ("Animator");
 		p = (CharacterController)(this.GetComponent("CharacterController"));
+
 	}
 	
 	// Update is called once per frame
@@ -88,6 +89,7 @@ public class player : MonoBehaviour {
 	}
 
 	void respawn() {
+	
 		this.lives--;
 		this.transform.position = this.respawnPoint.transform.position;
 	}
