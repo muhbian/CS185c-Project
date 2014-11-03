@@ -8,39 +8,23 @@ public class player : MonoBehaviour {
 	public float gravity;
 	public bool onPogo;
 	public bool isJumping;
-	public BoxCollider headCollider;
-
 	public GameObject bullet;
+	public GameObject respawnPoint;
 	 
-	public ArrayList floors; 
-
-	private enum direction {RIGHT, LEFT};
-	private direction walkingDir = direction.RIGHT;
-
-	public Animator anim;
-	public CharacterController p;
+	private Animator anim;
+	private CharacterController p;
 	public Vector3 dir = new Vector3();
-	public int ammunition = 5;
-	public int pogoCharges = 5;
-	public int score = 0;
-	public int lives = 3;
-
-	public Vector3 spawn = new Vector3();
-
+	private int ammunition = 5;
+	private int pogoCharges = 5;
+	private int score = 0;
+	private int lives = 3;
+	private bool hitHead;
 
 	// Use this for initialization
 	void Start () {
 		anim = (Animator)this.GetComponent ("Animator");
 		p = (CharacterController)(this.GetComponent("CharacterController"));
-		headCollider = (BoxCollider)this.GetComponent ("BoxCollider");
 
-
-		spawn.x = -2.5f;
-		spawn.y = -1.3f;
-		spawn.z = -2f;
-
-
-		// this.respawn ();
 	}
 	
 	// Update is called once per frame
@@ -51,21 +35,19 @@ public class player : MonoBehaviour {
 		}
 		dir.x = Input.GetAxis ("Horizontal") * speed;
 		if (Input.GetAxis ("Horizontal") > 0) {
-			this.walkingDir = direction.RIGHT;
 			transform.rotation = new Quaternion(0,180,0,0);
 		} else if (Input.GetAxis ("Horizontal") < 0) {
-			this.walkingDir = direction.LEFT;
 			transform.rotation = new Quaternion(0,0,0,0);
 		}
 		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
 			this.isJumping = true;
+			this.onPogo = false;
 			dir.y = this.jumpStrength;
 		}
-		if (Input.GetButtonDown ("Pogo") && !this.onPogo && this.pogoCharges > 0) {
+		if (Input.GetButtonDown ("Pogo") && !this.onPogo && this.pogoCharges > 0 && !this.isJumping) {
 			dir.y = pogoStrength;
 			this.pogoCharges--;
 			this.onPogo = true;
-			anim.SetBool ("onPogo", true);
 		}
 		dir.y -= gravity * Time.deltaTime;
 		p.Move (dir * Time.deltaTime);
@@ -76,69 +58,66 @@ public class player : MonoBehaviour {
 			this.shoot();
 		}
 
-		// Handle Animations
+		// Handle Animations and grounding
 		if (dir.x != 0) {
 			anim.SetBool ("moving", true);
 		} else {
 			anim.SetBool ("moving", false);
 		}
 
+		if (this.onPogo) {
+			anim.SetBool ("onPogo", true);
+		}
+			
 		if (p.isGrounded) {
 			this.isJumping = false;
 			anim.SetBool ("isGrounded", true);
 			anim.SetBool ("onPogo", false);
 			this.onPogo = false;
+			this.hitHead = false;
 		} else {
 			anim.SetBool ("isGrounded", false);
 		}
 	}
 
 	void shoot() {
-		Instantiate(this.bullet,
-		            new Vector3(this.transform.position.x,this.transform.position.y+1.5f,this.transform.position.z),
-		            Quaternion.identity);	}
+		this.ammunition--;
+		Vector3 bulletPos = new Vector3 (this.transform.position.x + 1.0f,
+		                                this.transform.position.y,
+		                                this.transform.position.z);	
+	
+		GameObject.Instantiate (this.bullet, bulletPos, Quaternion.identity);
+	}
 
 	void addAmmunition(int amount) {
 		this.ammunition += amount;
-		Debug.Log (this.ammunition);
 	}
 
 	void respawn() {
-		
-		this.gameObject.transform.position = spawn;
-		this.walkingDir = direction.RIGHT;
-		transform.rotation = new Quaternion(0,180,0,0); 
-	}
 	
-	void looseLive() {
-		this.respawn ();
 		this.lives--;
+		this.transform.position = this.respawnPoint.transform.position;
 	}
 
 	void addPogoCharges(int amount) {
 		this.pogoCharges += amount;
-		Debug.Log (this.pogoCharges);
 	}
 
 	void addScore(int amount) {
 		this.score += amount;
-		Debug.Log (this.score);
 	}
 
 	void onTriggerEnter(Collider c) {
-		Debug.Log("hallo");
-
 		if (c.tag == "enemy") {
-			this.lives--;
 			this.respawn();
-			// play Death Animation?
-			// TODO respawn
+			// play Death Animation
 		}
-		if (c.tag == "wall") {
-			if(headCollider.bounds.Intersects(c.bounds)){
-				Debug.Log("abc");
-			}
-		}
+	}
 
+	void OnControllerColliderHit(ControllerColliderHit hit){
+		if (!this.hitHead) {
+			dir = new Vector3 (0, 0, 0);
+			this.hitHead = true;
+		}
 	}
 }
