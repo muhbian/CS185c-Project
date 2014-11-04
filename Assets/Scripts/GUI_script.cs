@@ -6,7 +6,7 @@ public class GUI_script : MonoBehaviour {
 	public player player;
 	public Texture livesTxtr;
 	public Texture ammoTxtr;
-
+	
 	public GUIStyle guiStyle;
 
 	public bool gameStarted;
@@ -42,6 +42,8 @@ public class GUI_script : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		this.transform.position = new Vector3 (this.player.transform.position.x,
+		                                       this.player.transform.position.y,
+		                                      this.transform.position.z);
 	}
 }
