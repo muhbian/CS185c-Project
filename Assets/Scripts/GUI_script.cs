@@ -7,33 +7,35 @@ public class GUI_script : MonoBehaviour {
 	public Texture livesTxtr;
 	public Texture ammoTxtr;
 
+	public GUIStyle guiStyle;
 
-	public 
+	public bool gameStarted;
+
 	// Use this for initialization
 	void Start () {
-	
+
+		guiStyle = new GUIStyle ();
+		guiStyle.normal.textColor = Color.white;
+		guiStyle.fontSize = 12;
 
 	}
 
 	void OnGUI() {
 
-		GUIStyle guiStyle = new GUIStyle();
-		guiStyle.normal.textColor = Color.white;
-		guiStyle.fontSize = 12;
-
 		// Scores
 		// GUI.Label (new Rect (10, 20, 16, 16), scoreTxtr, guiStyle);
-		string scoreLabel = "Score: " + this.player.score.ToString();
-		GUI.Label (new Rect (10, 10, 20, 20), scoreLabel, guiStyle );
+		string scoreLabel = "Score: " + this.player.score.ToString ();
+		GUI.Label (new Rect (10, 35, 20, 20), scoreLabel, guiStyle);
 		// Lives 16x16
-		GUI.Label (new Rect (10, 30, 16, 16), livesTxtr, guiStyle);
+		GUI.Label (new Rect (10, 10, 16, 16), livesTxtr, guiStyle);
 		string livesLabel = this.player.lives.ToString ();
-		GUI.Label (new Rect (28, 30, 20, 20), livesLabel, guiStyle);
+		GUI.Label (new Rect (28, 10, 20, 20), livesLabel, guiStyle);
 		// Ammo
-		GUI.Label (new Rect (10, 53, 16, 10), ammoTxtr, guiStyle);
-		string ammoLabel = this.player.ammunition.ToString ();
-		GUI.Label (new Rect (28, 50, 20, 20), ammoLabel, guiStyle);
-	
+		if(this.player.hasGun) {
+			GUI.Label (new Rect (40, 53, 32, 20), ammoTxtr, guiStyle);
+			string ammoLabel = this.player.ammunition.ToString ();
+			GUI.Label (new Rect (58, 50, 20, 20), ammoLabel, guiStyle);
+		}
 	}
 
 	
