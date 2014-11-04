@@ -47,11 +47,13 @@ public class player : MonoBehaviour {
 			if (deadAnimCount > 0) {
 				Vector3 actPos = this.transform.position;
 				this.transform.position = new Vector3 (actPos.x, actPos.y + 0.02f, actPos.z);
+				// anim.SetTrigger ("dead");
 				deadAnimCount--;
 			} else {
+				anim.SetBool ("dead", false);
 				deadAnimation = false;
 				this.transform.position = this.respawnPoint.transform.position;
-				this.transform.rotation = new Quaternion(0,0,0,0);
+				this.transform.rotation = new Quaternion(0,180,0,0);
 
 			}
 		} else {
@@ -138,7 +140,7 @@ public class player : MonoBehaviour {
 		this.lives--;
 		this.onPogo = false;
 	//	this.MyMethod ();
-		anim.SetTrigger ("dead");
+		anim.SetBool ("dead", true);
 		this.deadAnimation = true;
 	}
 
