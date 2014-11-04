@@ -47,7 +47,6 @@ public class player : MonoBehaviour {
 			if (deadAnimCount > 0) {
 				Vector3 actPos = this.transform.position;
 				this.transform.position = new Vector3 (actPos.x, actPos.y + 0.02f, actPos.z);
-				// anim.SetTrigger ("dead");
 				deadAnimCount--;
 			} else {
 				anim.SetBool ("dead", false);
@@ -68,7 +67,7 @@ public class player : MonoBehaviour {
 				} else if (Input.GetAxis ("Horizontal") < 0) {
 						transform.rotation = new Quaternion (0, 0, 0, 0);
 				}
-				if (Input.GetButtonDown ("Jump") && !this.isJumping) {
+				if (Input.GetButtonDown ("Jump") && (this.onPogo || this.p.isGrounded) && !this.isJumping ) {
 						this.isJumping = true;
 						this.onPogo = false;
 						anim.SetBool ("onPogo", this.onPogo);
@@ -99,7 +98,6 @@ public class player : MonoBehaviour {
 				} else {
 						anim.SetBool ("moving", false);
 				}
-
 				if (p.isGrounded) {
 						this.isJumping = false;
 						this.hitHead = false;
@@ -108,9 +106,7 @@ public class player : MonoBehaviour {
 
 						} else {
 								anim.SetBool ("isGrounded", true);
-		
 						}
-
 				} else {
 						anim.SetBool ("isGrounded", false);
 				}
