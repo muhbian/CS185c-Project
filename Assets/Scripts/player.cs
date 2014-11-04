@@ -28,7 +28,6 @@ public class player : MonoBehaviour {
 		p = (CharacterController)(this.GetComponent("CharacterController"));
 		this.hasPogo = true;
 		this.hasGun = true;
-		//this.respawn ();
 	}
 	
 	// Update is called once per frame
@@ -45,16 +44,14 @@ public class player : MonoBehaviour {
 		} else if (Input.GetAxis ("Horizontal") < 0) {
 			transform.rotation = new Quaternion(0,0,0,0);
 		}
-		if (Input.GetButtonDown ("Jump") && !this.isJumping) {
+		if (Input.GetButtonDown ("Jump") && (this.p.isGrounded || this.onPogo) && !this.isJumping ) {
 			this.isJumping = true;
 			this.onPogo = false;
 			anim.SetBool ("onPogo", this.onPogo);
 			dir.y = this.jumpStrength;
 		}
 		if (Input.GetButtonDown ("Pogo") ) {
-//			dir.y = pogoStrength;
-//
-//			this.onPogo = true;
+			//dir.y = pogoStrength;
 
 			this.onPogo = !this.onPogo;
 
@@ -78,30 +75,27 @@ public class player : MonoBehaviour {
 		} else {
 			anim.SetBool ("moving", false);
 		}
-
+	
 		if (p.isGrounded) {
 			this.isJumping = false;
 			this.hitHead = false;
 			if(onPogo) {
 				dir.y = pogoStrength;
-
 			} else {
-				anim.SetBool ("isGrounded", true);
-				
+				anim.SetBool ("isGrounded", true);	
 			}
-
 		} else {
 			anim.SetBool ("isGrounded", false);
 		}
+
 		dir.y -= gravity * Time.deltaTime;
 		p.Move (dir * Time.deltaTime);
-
 	}
 
 	void shoot() {
 		this.ammunition--;
-		Instantiate(this.bullet,
-		            new Vector3(this.transform.position.x+1.5f,this.transform.position.y,this.transform.position.z),
+		Instantiate(bullet,
+		            this.transform.position,
 		            Quaternion.identity);
 	}
 
@@ -119,14 +113,7 @@ public class player : MonoBehaviour {
 		this.score += amount;
 		// play sound
 	}
-
-
-//	void OnTriggerStay(Collider c) {
-//		if (c.tag == "enemy") {
-//			this.respawn();
-//		}
-//		Debug.Log ("colission");
-//	}
+	
 
 	void OnControllerColliderHit(ControllerColliderHit hit){
 		if (!this.hitHead && !p.isGrounded) {

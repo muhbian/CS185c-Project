@@ -7,9 +7,38 @@ public class crate : MonoBehaviour {
 	public ContentTypes content;
 	public int value;
 
+	public Sprite ammoSprite;
+	public Sprite tenPoints;
+	public Sprite fiftyPoints;
+	public Sprite hundredPoints;
+
+
 
 	// Use this for initialization
 	void Start () {
+		SpriteRenderer sr = this.GetComponent<SpriteRenderer> ();
+
+		switch (this.content) {
+		case ContentTypes.Ammunition:
+			sr.sprite = this.ammoSprite;
+			break;
+
+		case ContentTypes.Score:
+			switch (this.value) {
+			case 10:
+				sr.sprite = this.tenPoints;
+				break;
+			case 50:
+				sr.sprite = this.fiftyPoints;
+				break;
+
+			case 100:
+				sr.sprite = this.hundredPoints;
+				break;
+			}
+			break;
+		}
+
 	}
 	
 	// Update is called once per frame
