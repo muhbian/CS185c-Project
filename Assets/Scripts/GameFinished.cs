@@ -9,7 +9,7 @@ public class GameFinished : MonoBehaviour {
 	
 	public int counter;
 
-	public player player;
+	public persistenceOwn persist;
 	
 	
 	// Use this for initialization
@@ -19,15 +19,27 @@ public class GameFinished : MonoBehaviour {
 		guiStyle.normal.textColor = Color.white;
 		guiStyle.fontSize = 15;
 		scoreStyle.normal.textColor = Color.white;
+		persist.SendMessage ("loadPlayer");
+
 		
 	}
 	
 	void OnGUI() {
 
-		string scoreLabel = "You reached a total score of:";
-		GUI.Label (new Rect (190, 320, 800, 50), scoreLabel, scoreStyle);
-		string score = this.player.score.ToString ();
-		GUI.Label (new Rect (630, 320, 800, 50), score, scoreStyle);
+		if (persist.score == persist.highscore) {
+			string recordLabel = "You set a new high score!";
+			string scoreReached = "You reached a total score of: " + persist.score.ToString (); 
+			GUI.Label (new Rect (0, 400, 800, 50), recordLabel, guiStyle);
+			GUI.Label (new Rect (0, 430, 800, 50), scoreReached, guiStyle);
+		} else {
+			string scoreLabel = "You reached a total score of:";
+			GUI.Label (new Rect (190, 320, 800, 50), scoreLabel, scoreStyle);
+			string score = this.persist.score.ToString ();
+			GUI.Label (new Rect (630, 320, 800, 50), score, scoreStyle);
+		}
+
+
+
 
 		if (counter < 130) {
 			counter++;

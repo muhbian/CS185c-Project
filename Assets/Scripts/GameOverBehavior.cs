@@ -7,20 +7,26 @@ public class GameOverBehavior : MonoBehaviour {
 	
 	public int counter;
 	
-	
-	
+	public persistenceOwn persist;
+
 	// Use this for initialization
 	void Start () {
 		counter = 0;
 		//guiStyle = new GUIStyle ();
 		guiStyle.normal.textColor = Color.white;
 		guiStyle.fontSize = 15;
-		
-		
+		persist.SendMessage ("loadPlayer");
 	}
 	
 	void OnGUI() {
-		
+
+		if (persist.score == persist.highscore) {
+			string recordLabel = "You set a new high score!";
+			string scoreReached = "You reached a total score of: " + persist.score.ToString (); 
+			GUI.Label (new Rect (0, 400, 800, 50), recordLabel, guiStyle);
+			GUI.Label (new Rect (0, 430, 800, 50), scoreReached, guiStyle);
+		}
+
 		if (counter < 130) {
 			counter++;
 			string startGame = "--- Press space to start another game ---";
