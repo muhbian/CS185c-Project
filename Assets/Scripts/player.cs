@@ -14,6 +14,7 @@ public class player : MonoBehaviour {
 	public GameObject respawnPoint;
 	public AudioClip hitHeadSound;
 
+
 	public bool deadAnimation;
 	public int deadAnimCount;
 	 
@@ -22,6 +23,7 @@ public class player : MonoBehaviour {
 	public Vector3 dir = new Vector3();
 	public int ammunition = 5;
 	public int score = 0;
+	public int highscore;
 	public int lives = 3;
 	public bool hitHead;
 
