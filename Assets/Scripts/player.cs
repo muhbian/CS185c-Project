@@ -47,14 +47,6 @@ public class player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		RaycastHit hit;
-		Physics.Raycast (transform.position, Vector3.up, out hit);
-		if (hit.distance < 1 && !this.hitHead) {
-			dir.y = 0;
-			this.hitHead = true;
-			Debug.Log (hit.distance);
-		} 
-
 		// check if still alive 
 		if (lives == 0) {
 			Application.LoadLevel("GameOverScreen");
@@ -74,10 +66,18 @@ public class player : MonoBehaviour {
 
 			}
 		} else {
-			deadAnimCount = 120;
+				deadAnimCount = 120;
+				RaycastHit hit;
+				Physics.Raycast (this.transform.position, Vector3.up, out hit);
+				if (hit.distance < 1 && !this.hitHead && hit.distance != 0) {
+					dir.y = 0;
+					this.hitHead = true;
+					Debug.Log (hit.distance);
+				} 
 				// Handle Movement
 				if (p.isGrounded) {
 						dir.y = 0;
+						this.isJumping = false;
 				}
 				dir.x = Input.GetAxis ("Horizontal") * speed;
 				if (Input.GetAxis ("Horizontal") > 0) {
@@ -86,7 +86,9 @@ public class player : MonoBehaviour {
 						transform.rotation = new Quaternion (0, 0, 0, 0);
 				}
 				if (Input.GetButtonDown ("Jump") && (this.onPogo || this.p.isGrounded) && !this.isJumping ) {
-						this.isJumping = true;
+						if(this.onPogo)
+							this.isJumping = true;
+						
 						this.onPogo = false;
 						anim.SetBool ("onPogo", this.onPogo);
 						dir.y = this.jumpStrength;
@@ -117,7 +119,6 @@ public class player : MonoBehaviour {
 						anim.SetBool ("moving", false);
 				}
 				if (p.isGrounded) {
-						this.isJumping = false;
 						this.hitHead = false;
 						if (onPogo) {
 								dir.y = pogoStrength;
