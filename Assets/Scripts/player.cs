@@ -119,9 +119,9 @@ public class player : MonoBehaviour {
 
 	void shoot() {
 		this.ammunition--;
-		Instantiate(this.bullet,
-		            new Vector3(this.transform.position.x+1.5f,this.transform.position.y,this.transform.position.z),
-		            Quaternion.identity);
+		Instantiate (this.bullet, 
+		             new Vector3(this.transform.position.x + 1, this.transform.position.y, -2), 
+		             Quaternion.identity);
 	}
 
 	void addAmmunition(int amount) {
