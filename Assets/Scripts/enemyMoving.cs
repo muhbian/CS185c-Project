@@ -52,6 +52,13 @@ public class enemyMoving : MonoBehaviour {
 		}
 	}
 
+	void damaged() {
+		GameObject player = GameObject.FindGameObjectWithTag ("Player");
+		player.SendMessage ("addScore", 20);
+
+		GameObject.Destroy (this.gameObject);
+	}
+
 	void OnTriggerEnter(Collider c) {
 		if (c.tag == "Player") {
 			c.SendMessage ("respawn", 0);

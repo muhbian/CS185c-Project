@@ -15,6 +15,10 @@ public class bulletScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision c) {
+		GameObject.Destroy (this.gameObject);
+	}
+
+	void OnTriggerEnter(Collider c) {
 		if (c.transform.tag == "enemy") {
 			c.gameObject.SendMessage("damaged",1);
 		}
