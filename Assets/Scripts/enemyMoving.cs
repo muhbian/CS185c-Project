@@ -52,9 +52,9 @@ public class enemyMoving : MonoBehaviour {
 		}
 	}
 
-//	void OnControllerColliderHit(ControllerColliderHit hit){
 	void OnTriggerEnter(Collider c) {
-		c.SendMessage ("respawn", 0);
-
+		if (c.tag == "Player") {
+			c.SendMessage ("respawn", 0);
+		}
 	}
 }

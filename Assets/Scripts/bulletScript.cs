@@ -12,6 +12,12 @@ public class bulletScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		this.transform.position += new Vector3 (speed, 0, 0) * Time.deltaTime; 
-		Debug.Log (this.transform.position);
+	}
+
+	void OnCollisionEnter(Collision c) {
+		if (c.transform.tag == "enemy") {
+			c.gameObject.SendMessage("damaged",1);
+		}
+		GameObject.Destroy (this.gameObject);
 	}
 }
