@@ -7,6 +7,7 @@ public class bulletScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Debug.Log (this.transform.rotation);
 	}
 	
 	// Update is called once per frame
@@ -21,7 +22,7 @@ public class bulletScript : MonoBehaviour {
 	void OnTriggerEnter(Collider c) {
 		if (c.transform.tag == "enemy") {
 			c.gameObject.SendMessage("damaged",1);
+			GameObject.Destroy (this.gameObject);
 		}
-		GameObject.Destroy (this.gameObject);
 	}
 }
