@@ -5,6 +5,8 @@ using System.Xml.Serialization;
 using System.IO; 
 using System.Text; 
 
+
+
 public class persistenceOwn: MonoBehaviour { 
 
 	// copied from http://wiki.unity3d.com/index.php/Save_and_Load_from_XML
@@ -83,8 +85,7 @@ public class persistenceOwn: MonoBehaviour {
 		}
 
 	void savePlayer() {
-
-		GUI.Label(_SaveMSG,"Saving to: "+_FileLocation); 
+	/*	GUI.Label(_SaveMSG,"Saving to: "+_FileLocation); 
 		myData._iUser.score = _Player.score; 
 		myData._iUser.ammo=_Player.transform.position.y; 
 		myData._iUser.lives=_Player.transform.position.z; 
@@ -97,7 +98,7 @@ public class persistenceOwn: MonoBehaviour {
 		_data = SerializeObject(myData); 
 		// This is the final resulting XML from the serialization process 
 		CreateXML(); 
-		Debug.Log(_data); 
+		Debug.Log(_data); */
 	}
 	void OnGUI() 
 	{    
@@ -190,3 +191,4 @@ public class UserData
 		public int highscore;
 	} 
 }
+

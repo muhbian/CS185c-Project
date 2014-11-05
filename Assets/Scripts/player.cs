@@ -39,6 +39,14 @@ public class player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		RaycastHit hit;
+		Physics.Raycast (transform.position, Vector3.up, out hit);
+		if (hit.distance < 1 && !this.hitHead) {
+			dir.y = 0;
+			this.hitHead = true;
+			Debug.Log (hit.distance);
+		} 
+
 		// check if still alive 
 		if (lives == 0) {
 			Application.LoadLevel("GameOverScreen");
@@ -119,9 +127,16 @@ public class player : MonoBehaviour {
 
 	void shoot() {
 		this.ammunition--;
-		Instantiate (this.bullet, 
-		             new Vector3(this.transform.position.x + 1, this.transform.position.y, -2), 
-		             Quaternion.identity);
+		if (this.transform.rotation.y == 0) {
+				GameObject b = (GameObject)Instantiate (this.bullet, 
+		                                   new Vector3 (this.transform.position.x - 1, this.transform.position.y, -2), 
+		                                   Quaternion.identity);
+				b.SendMessage ("goLeft");
+		} else {
+			GameObject b = (GameObject)Instantiate (this.bullet, 
+			                                        new Vector3 (this.transform.position.x + 1, this.transform.position.y, -2), 
+			                                        Quaternion.identity);
+		}
 	}
 
 	void addAmmunition(int amount) {
@@ -154,14 +169,5 @@ public class player : MonoBehaviour {
 //		}
 //		Debug.Log ("colission");
 //	}
-
-	void OnControllerColliderHit(ControllerColliderHit hit){
-		if (!this.hitHead && !p.isGrounded) {
-			dir = new Vector3 (0, 0, 0);
-
-			this.hitHead = true;
-			AudioSource.PlayClipAtPoint (this.hitHeadSound, new Vector3(0,0,0));
-		}
-
-	}
+	
 }
