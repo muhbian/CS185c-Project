@@ -7,12 +7,11 @@ public class bulletScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log (this.transform.rotation);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.position += new Vector3 (speed, 0, 0) * Time.deltaTime; 
+		this.transform.position +=  * speed * Time.deltaTime; 
 	}
 
 	void OnCollisionEnter(Collision c) {
