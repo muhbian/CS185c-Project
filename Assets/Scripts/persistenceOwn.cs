@@ -24,7 +24,10 @@ public class persistenceOwn: MonoBehaviour {
 	public player _Player; 
 	UserData myData; 
 	string _data; 
-	
+
+	public int highscore;
+	public int score;
+
 	Vector3 VPosition; 
 	
 	// When the EGO is instansiated the Start will trigger 
@@ -59,9 +62,11 @@ public class persistenceOwn: MonoBehaviour {
 			myData = (UserData)DeserializeObject(_data);
 
 			_Player.score = myData._iUser.score;
+			this.score = myData._iUser.score;
 			_Player.ammunition = myData._iUser.ammo;
 			_Player.lives = myData._iUser.lives;
 			_Player.highscore = myData._iUser.highscore;
+			this.highscore = myData._iUser.highscore;
 
 
 		} 
@@ -69,7 +74,7 @@ public class persistenceOwn: MonoBehaviour {
 	}
 
 	void loadHighScore() {
-		GUI.Label(_LoadMSG,"Loading from: "+_FileLocation); 
+	//	GUI.Label(_LoadMSG,"Loading from: "+_FileLocation); 
 		// Load our UserData into myData 
 		LoadXML(); 
 		if(_data.ToString() != "") 
@@ -79,18 +84,17 @@ public class persistenceOwn: MonoBehaviour {
 			myData = (UserData)DeserializeObject(_data);
 
 			_Player.highscore = myData._iUser.highscore;
-			
+			this.highscore = myData._iUser.highscore;
 			
 		} 
 		}
 
 	void savePlayer() {
-	/*	GUI.Label(_SaveMSG,"Saving to: "+_FileLocation); 
-		myData._iUser.score = _Player.score; 
-		myData._iUser.ammo=_Player.transform.position.y; 
-		myData._iUser.lives=_Player.transform.position.z; 
+
+		myData._iUser.ammo = _Player.ammunition; 
+		myData._iUser.lives = _Player.lives; 
 		if (myData._iUser.highscore < _Player.score) {
-			myData._iUser.highscore=_Player.score;
+			myData._iUser.highscore = _Player.score;
 		}
 		    
 		
@@ -98,8 +102,9 @@ public class persistenceOwn: MonoBehaviour {
 		_data = SerializeObject(myData); 
 		// This is the final resulting XML from the serialization process 
 		CreateXML(); 
-		Debug.Log(_data); */
+		Debug.Log(_data); 
 	}
+
 	void OnGUI() 
 	{    
 
@@ -147,7 +152,7 @@ public class persistenceOwn: MonoBehaviour {
 	void CreateXML() 
 	{ 
 		StreamWriter writer; 
-		FileInfo t = new FileInfo(_FileLocation+"\\"+ _FileName); 
+		FileInfo t = new FileInfo(_FileLocation+"/"+ _FileName); 
 		if(!t.Exists) 
 		{ 
 			writer = t.CreateText(); 
@@ -164,7 +169,7 @@ public class persistenceOwn: MonoBehaviour {
 	
 	void LoadXML() 
 	{ 
-		StreamReader r = File.OpenText(_FileLocation+"\\"+ _FileName); 
+		StreamReader r = File.OpenText(_FileLocation+"/"+ _FileName); 
 		string _info = r.ReadToEnd(); 
 		r.Close(); 
 		_data=_info; 

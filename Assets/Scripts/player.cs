@@ -2,6 +2,9 @@
 using System.Collections;
 
 public class player : MonoBehaviour {
+
+	public persistenceOwn persist;
+
 	public float speed;
 	public float jumpStrength;
 	public float pogoStrength;
@@ -13,8 +16,7 @@ public class player : MonoBehaviour {
 	public GameObject bullet;
 	public GameObject respawnPoint;
 	public AudioClip hitHeadSound;
-
-
+	
 	public bool deadAnimation;
 	public int deadAnimCount;
 	 
@@ -27,6 +29,7 @@ public class player : MonoBehaviour {
 	public int lives = 3;
 	public bool hitHead;
 
+
 	// Use this for initialization
 	void Start () {
 		anim = (Animator)this.GetComponent ("Animator");
@@ -34,6 +37,11 @@ public class player : MonoBehaviour {
 		this.hasPogo = true;
 		this.hasGun = true;
 		//this.respawn ();
+		if (Application.loadedLevel > 1) {
+			persist.SendMessage ("loadPlayer");
+		} else {
+			persist.SendMessage("loadHighScore");
+		}
 	}
 	
 	// Update is called once per frame
