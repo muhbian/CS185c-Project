@@ -6,6 +6,8 @@ public class GameOverBehavior : MonoBehaviour {
 	public GUIStyle guiStyle;
 	
 	public int counter;
+
+	public GameObject congrats;
 	
 	public persistenceOwn persist;
 
@@ -15,16 +17,23 @@ public class GameOverBehavior : MonoBehaviour {
 		//guiStyle = new GUIStyle ();
 		guiStyle.normal.textColor = Color.white;
 		guiStyle.fontSize = 15;
+		Debug.Log ("Load Const GO");
 		persist.SendMessage ("loadPlayer");
+		congrats.renderer.enabled = false;
 	}
 	
 	void OnGUI() {
 
 		if (persist.score == persist.highscore) {
+			if (counter < 80) {
+				congrats.renderer.enabled = true;
+			} else if (counter < 120) {
+				congrats.renderer.enabled = false;
+			}
 			string recordLabel = "You set a new high score!";
 			string scoreReached = "You reached a total score of: " + persist.score.ToString (); 
-			GUI.Label (new Rect (0, 400, 800, 50), recordLabel, guiStyle);
-			GUI.Label (new Rect (0, 430, 800, 50), scoreReached, guiStyle);
+			GUI.Label (new Rect (0, 350, 800, 50), recordLabel, guiStyle);
+			GUI.Label (new Rect (0, 375, 800, 50), scoreReached, guiStyle);
 		}
 
 		if (counter < 130) {

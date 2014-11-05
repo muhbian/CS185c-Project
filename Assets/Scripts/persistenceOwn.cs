@@ -17,9 +17,7 @@ public class persistenceOwn: MonoBehaviour {
 	// We will just use the KISS method and cheat a little and use 
 	// the examples from the web page since they are fully described 
 	
-	// This is our local private members 
-	Rect _Save, _Load, _SaveMSG, _LoadMSG; 
-	bool _ShouldSave, _ShouldLoad,_SwitchSave,_SwitchLoad; 
+
 	string _FileLocation,_FileName; 
 	public player _Player; 
 	UserData myData; 
@@ -28,19 +26,13 @@ public class persistenceOwn: MonoBehaviour {
 	public int highscore;
 	public int score;
 
-	Vector3 VPosition; 
-	
 	// When the EGO is instansiated the Start will trigger 
 	// so we setup our initial values for our local members 
 	void Start () { 
-		// We setup our rectangles for our messages 
-		_Save=new Rect(10,80,100,20); 
-		_Load=new Rect(10,100,100,20); 
-		_SaveMSG=new Rect(10,120,400,40); 
-		_LoadMSG=new Rect(10,140,400,40); 
-		
 		// Where we want to save and load to and from 
 		_FileLocation=Application.dataPath; 
+		Debug.Log (_FileLocation);
+		Debug.Log (Application.dataPath);
 		_FileName="SaveData.xml"; 
 
 		
@@ -51,8 +43,11 @@ public class persistenceOwn: MonoBehaviour {
 	void Update () {} 
 
 	void loadPlayer() {
-		
-		GUI.Label(_LoadMSG,"Loading from: "+_FileLocation); 
+
+		_FileLocation=Application.dataPath; 
+		_FileName="SaveData.xml"; 
+
+		//GUI.Label(_LoadMSG,"Loading from: "+_FileLocation); 
 		// Load our UserData into myData 
 		LoadXML(); 
 		if(_data.ToString() != "") 
@@ -74,7 +69,7 @@ public class persistenceOwn: MonoBehaviour {
 	}
 
 	void loadHighScore() {
-	//	GUI.Label(_LoadMSG,"Loading from: "+_FileLocation); 
+	
 		// Load our UserData into myData 
 		LoadXML(); 
 		if(_data.ToString() != "") 
@@ -91,6 +86,7 @@ public class persistenceOwn: MonoBehaviour {
 
 	void savePlayer() {
 
+		myData._iUser.score = _Player.score;
 		myData._iUser.ammo = _Player.ammunition; 
 		myData._iUser.lives = _Player.lives; 
 		if (myData._iUser.highscore < _Player.score) {
@@ -144,7 +140,7 @@ public class persistenceOwn: MonoBehaviour {
 	{ 
 		XmlSerializer xs = new XmlSerializer(typeof(UserData)); 
 		MemoryStream memoryStream = new MemoryStream(StringToUTF8ByteArray(pXmlizedString)); 
-		XmlTextWriter xmlTextWriter = new XmlTextWriter(memoryStream, Encoding.UTF8); 
+//		XmlTextWriter xmlTextWriter = new XmlTextWriter(memoryStream, Encoding.UTF8); 
 		return xs.Deserialize(memoryStream); 
 	} 
 	
@@ -169,7 +165,7 @@ public class persistenceOwn: MonoBehaviour {
 	
 	void LoadXML() 
 	{ 
-		StreamReader r = File.OpenText(_FileLocation+"/"+ _FileName); 
+		StreamReader r = File.OpenText(_FileLocation + "/" + _FileName); 
 		string _info = r.ReadToEnd(); 
 		r.Close(); 
 		_data=_info; 
