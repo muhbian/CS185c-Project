@@ -12,6 +12,8 @@ public class crate : MonoBehaviour {
 	public Sprite fiftyPoints;
 	public Sprite hundredPoints;
 
+	public AudioClip collectSound;
+
 
 
 	// Use this for initialization
@@ -58,6 +60,7 @@ public class crate : MonoBehaviour {
 			default:
 				break;
 			} 
+			AudioSource.PlayClipAtPoint(this.collectSound, this.transform.position);
 			GameObject.Destroy(this.gameObject);
 		}
 	}
