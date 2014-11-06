@@ -16,7 +16,6 @@ public class finish : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter(Collider c) {
-		Debug.Log ("Save Finish");
 		persist.SendMessage ("savePlayer");
 		persist.SendMessage ("loadPlayer");
 		Debug.Log ("Level finished: " + Application.loadedLevel);
