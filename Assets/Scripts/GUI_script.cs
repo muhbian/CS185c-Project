@@ -16,7 +16,6 @@ public class GUI_script : MonoBehaviour {
 
 		guiStyle.normal.textColor = Color.white;
 		guiStyle.fontSize = 12;
-
 	}
 
 	void OnGUI() {
