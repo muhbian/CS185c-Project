@@ -62,7 +62,6 @@ public class GameFinished : MonoBehaviour {
 		
 		if (Input.GetButtonDown ("Fire1") || Input.GetButtonDown ("Space")) {
 			Application.LoadLevel (1);
-			Debug.Log ("Start Game - Level 1");
 		}
 
 		if (Input.GetButtonDown ("Escape") || Input.GetButtonDown ("Q")) {

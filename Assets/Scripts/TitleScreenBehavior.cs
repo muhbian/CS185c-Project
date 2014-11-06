@@ -36,7 +36,6 @@ public class TitleScreenBehavior : MonoBehaviour {
 
 		if (Input.GetButtonDown ("Fire1") || Input.GetButtonDown ("Space")) {
 			Application.LoadLevel (1);
-			Debug.Log ("Start Game - Level 1");
 		}
 
 
