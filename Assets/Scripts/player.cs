@@ -73,7 +73,6 @@ public class player : MonoBehaviour {
 				if (hit.distance < 1 && !this.hitHead && hit.distance != 0 && hit.collider.tag != "enemy") {
 					dir.y = 0;
 					this.hitHead = true;
-					Debug.Log (hit.distance);
 				} 
 				// Handle Movement
 				if (p.isGrounded) {
