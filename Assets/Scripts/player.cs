@@ -38,10 +38,8 @@ public class player : MonoBehaviour {
 		this.hasGun = true;
 		//this.respawn ();
 		if (Application.loadedLevel > 1) {
-			Debug.Log ("load Player level > 1");
 			persist.SendMessage ("loadPlayer");
 		} else {
-			Debug.Log ("just load highscore");
 			persist.SendMessage("loadHighScore");
 		}
 	}
@@ -154,16 +152,9 @@ public class player : MonoBehaviour {
 		this.ammunition += amount;
 	}
 
-//	IEnumerator MyMethod() {
-//		Debug.Log("Before Waiting 2 seconds");
-//		yield return new WaitForSeconds(2);
-//		Debug.Log("After Waiting 2 Seconds");
-//	}
-
 	void respawn() {
 		this.lives--;
 		this.onPogo = false;
-	//	this.MyMethod ();
 		anim.SetBool ("dead", true);
 		anim.SetBool ("isGrounded", false);
 		anim.SetBool ("onPogo", false);
@@ -173,15 +164,6 @@ public class player : MonoBehaviour {
 
 	void addScore(int amount) {
 		this.score += amount;
-		// play sound
 	}
 
-
-//	void OnTriggerStay(Collider c) {
-//		if (c.tag == "enemy") {
-//			this.respawn();
-//		}
-//		Debug.Log ("colission");
-//	}
-	
 }
