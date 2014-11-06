@@ -38,8 +38,10 @@ public class player : MonoBehaviour {
 		this.hasGun = true;
 		//this.respawn ();
 		if (Application.loadedLevel > 1) {
+			Debug.Log ("load Player level > 1");
 			persist.SendMessage ("loadPlayer");
 		} else {
+			Debug.Log ("just load highscore");
 			persist.SendMessage("loadHighScore");
 		}
 	}

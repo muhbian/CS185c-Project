@@ -10,6 +10,8 @@ public class GameFinished : MonoBehaviour {
 	public int counter;
 
 	public persistenceOwn persist;
+
+	public GameObject congrats;
 	
 	
 	// Use this for initialization
@@ -20,17 +22,19 @@ public class GameFinished : MonoBehaviour {
 		guiStyle.fontSize = 15;
 		scoreStyle.normal.textColor = Color.white;
 		persist.SendMessage ("loadPlayer");
-
+		congrats.renderer.enabled = false;
 		
 	}
 	
 	void OnGUI() {
 
 		if (persist.score == persist.highscore) {
+
+			congrats.renderer.enabled = true;
 			string recordLabel = "You set a new high score!";
 			string scoreReached = "You reached a total score of: " + persist.score.ToString (); 
-			GUI.Label (new Rect (0, 400, 800, 50), recordLabel, guiStyle);
-			GUI.Label (new Rect (0, 430, 800, 50), scoreReached, guiStyle);
+			GUI.Label (new Rect (0, 350, 800, 50), recordLabel, guiStyle);
+			GUI.Label (new Rect (0, 375, 800, 50), scoreReached, guiStyle);
 		} else {
 			string scoreLabel = "You reached a total score of:";
 			GUI.Label (new Rect (190, 320, 800, 50), scoreLabel, scoreStyle);
@@ -57,7 +61,7 @@ public class GameFinished : MonoBehaviour {
 		}
 		
 		if (Input.GetButtonDown ("Fire1") || Input.GetButtonDown ("Space")) {
-			Application.LoadLevel ("TestLevel");
+			Application.LoadLevel (1);
 			Debug.Log ("Start Game - Level 1");
 		}
 

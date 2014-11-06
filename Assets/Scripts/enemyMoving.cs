@@ -34,7 +34,7 @@ public class enemyMoving : MonoBehaviour {
 			if (this.walkingDir == direction.RIGHT) {
 				if (actPos.x < this.origin.x + this.range) {
 					float posX = actPos.x + speed;
-					this.gameObject.transform.position = new Vector3 (posX, actPos.y, actPos.z);
+					this.gameObject.transform.position = new Vector3 (posX, actPos.y, -2);
 				} else {
 					this.gameObject.transform.rotation = new Quaternion(0,180,0,0);
 					this.walkingDir = direction.LEFT;
@@ -42,7 +42,7 @@ public class enemyMoving : MonoBehaviour {
 			} else {
 				if (actPos.x > this.origin.x) {
 					float posX = actPos.x - speed;
-					this.gameObject.transform.position = new Vector3 (posX, actPos.y, actPos.z);
+					this.gameObject.transform.position = new Vector3 (posX, actPos.y, -2);
 				} else {
 					this.gameObject.transform.rotation = new Quaternion(0,0,0,0);
 					this.walkingDir = direction.RIGHT;
