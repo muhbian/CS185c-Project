@@ -70,6 +70,9 @@ public class persistenceOwn: MonoBehaviour {
 
 	void loadHighScore() {
 	
+		_FileLocation=Application.dataPath; 
+		_FileName="SaveData.xml"; 
+
 		// Load our UserData into myData 
 		LoadXML(); 
 		if(_data.ToString() != "") 
@@ -82,9 +85,12 @@ public class persistenceOwn: MonoBehaviour {
 			this.highscore = myData._iUser.highscore;
 			
 		} 
-		}
+	}
 
 	void savePlayer() {
+
+		_FileLocation=Application.dataPath; 
+		_FileName="SaveData.xml"; 
 
 		myData._iUser.score = _Player.score;
 		myData._iUser.ammo = _Player.ammunition; 
