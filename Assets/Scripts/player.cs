@@ -54,6 +54,7 @@ public class player : MonoBehaviour {
 
 		this.transform.position = new Vector3 (this.transform.position.x, this.transform.position.y, -2);
 		if (deadAnimation) {
+
 			if (deadAnimCount > 0) {
 				Vector3 actPos = this.transform.position;
 				this.transform.position = new Vector3 (actPos.x, actPos.y + 0.02f, actPos.z);
@@ -163,6 +164,9 @@ public class player : MonoBehaviour {
 		this.onPogo = false;
 	//	this.MyMethod ();
 		anim.SetBool ("dead", true);
+		anim.SetBool ("isGrounded", false);
+		anim.SetBool ("onPogo", false);
+
 		this.deadAnimation = true;
 	}
 
