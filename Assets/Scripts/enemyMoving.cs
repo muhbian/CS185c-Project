@@ -16,6 +16,7 @@ public class enemyMoving : MonoBehaviour {
 
 	public bool isAlive;
 	public Animator anim;
+	public AudioClip dieSound;
 
 	// Use this for initialization
 	void Start () {
@@ -55,7 +56,7 @@ public class enemyMoving : MonoBehaviour {
 	void damaged() {
 		GameObject player = GameObject.FindGameObjectWithTag ("Player");
 		player.SendMessage ("addScore", 20);
-
+		AudioSource.PlayClipAtPoint(this.dieSound, this.transform.position);
 		GameObject.Destroy (this.gameObject);
 	}
 

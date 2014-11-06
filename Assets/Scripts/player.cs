@@ -15,8 +15,8 @@ public class player : MonoBehaviour {
 	public bool isJumping;
 	public GameObject bullet;
 	public GameObject respawnPoint;
-	public AudioClip hitHeadSound;
-	
+	public AudioClip dieSound;
+
 	public bool deadAnimation;
 	public int deadAnimCount;
 	 
@@ -70,7 +70,7 @@ public class player : MonoBehaviour {
 				deadAnimCount = 120;
 				RaycastHit hit;
 				Physics.Raycast (this.transform.position, Vector3.up, out hit);
-				if (hit.distance < 1 && !this.hitHead && hit.distance != 0 && hit.collider.tag != "enemy") {
+				if (hit.distance < 1 && !this.hitHead && hit.distance != 0 && hit.collider.tag != "enemy" && hit.collider.tag != "crate") {
 					dir.y = 0;
 					this.hitHead = true;
 				} 
@@ -153,6 +153,7 @@ public class player : MonoBehaviour {
 	}
 
 	void respawn() {
+		AudioSource.PlayClipAtPoint(this.dieSound, this.transform.position);
 		this.lives--;
 		this.onPogo = false;
 		anim.SetBool ("dead", true);

@@ -4,10 +4,12 @@ using System.Collections;
 public class bulletScript : MonoBehaviour {
 
 	public float speed;
+	public AudioClip sound;
 	private bool left;
 
 	// Use this for initialization
 	void Start () {
+		AudioSource.PlayClipAtPoint(this.sound, this.transform.position);
 	}
 	
 	// Update is called once per frame
