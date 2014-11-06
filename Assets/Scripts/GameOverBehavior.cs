@@ -52,7 +52,7 @@ public class GameOverBehavior : MonoBehaviour {
 		}
 		
 		if (Input.GetButtonDown ("Fire1") || Input.GetButtonDown ("Space")) {
-			Application.LoadLevel ("TestLevel");
+			Application.LoadLevel (1);
 			Debug.Log ("Start Game - Level 1");
 		}
 

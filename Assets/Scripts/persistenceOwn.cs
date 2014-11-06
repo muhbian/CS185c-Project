@@ -31,8 +31,8 @@ public class persistenceOwn: MonoBehaviour {
 	void Start () { 
 		// Where we want to save and load to and from 
 		_FileLocation=Application.dataPath; 
-		Debug.Log (_FileLocation);
-		Debug.Log (Application.dataPath);
+
+
 		_FileName="SaveData.xml"; 
 
 		
@@ -104,7 +104,7 @@ public class persistenceOwn: MonoBehaviour {
 		_data = SerializeObject(myData); 
 		// This is the final resulting XML from the serialization process 
 		CreateXML(); 
-		Debug.Log(_data); 
+	
 	}
 
 	void OnGUI() 
@@ -166,7 +166,7 @@ public class persistenceOwn: MonoBehaviour {
 		} 
 		writer.Write(_data); 
 		writer.Close(); 
-		Debug.Log("File written."); 
+
 	} 
 	
 	void LoadXML() 
@@ -175,7 +175,7 @@ public class persistenceOwn: MonoBehaviour {
 		string _info = r.ReadToEnd(); 
 		r.Close(); 
 		_data=_info; 
-		Debug.Log("File Read"); 
+
 	} 
 } 
 
