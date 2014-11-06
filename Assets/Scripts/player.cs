@@ -71,7 +71,7 @@ public class player : MonoBehaviour {
 				deadAnimCount = 120;
 				RaycastHit hit;
 				Physics.Raycast (this.transform.position, Vector3.up, out hit);
-				if (hit.distance < 1 && !this.hitHead && hit.distance != 0) {
+				if (hit.distance < 1 && !this.hitHead && hit.distance != 0 && hit.collider.tag != "enemy") {
 					dir.y = 0;
 					this.hitHead = true;
 					Debug.Log (hit.distance);
