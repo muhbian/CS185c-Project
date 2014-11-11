@@ -6,5 +6,5 @@ Developed in CS185c - Advanced Computational Topics (Video Game Engines)
 @ San Jose State University in 2014
 
 by 
-Fabian Schumann
-Tim Pissarczyk
+Fabian S.
+Tim P.
